@@ -7,6 +7,13 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
 
 <img width="1710" alt="Screenshot 2024-11-04 at 3 59 05 PM" src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e">
 
+### Inspiration
+
+Le projet s'inspire des "Music Visualizers", populaires sur les lecteurs de médias audio des appareils électroniques, particulièrement entre les années 2000 et le début des années 2010.
+
+#### Exemples :
+- [Apple iTunes Classic Visualizer](music vizualisers itune)
+
 
 ## Scénario interactif
 
