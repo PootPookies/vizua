@@ -13,6 +13,7 @@ Le projet s'inspire des "Music Visualizers", populaires sur les lecteurs de méd
 
 #### Exemples :
 - [Apple iTunes Classic Visualizer](https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2)
+- [Xbox 360 music visualizer](https://www.youtube.com/watch?v=tjI4dYWsFbM)
 
 
 ## Scénario interactif
