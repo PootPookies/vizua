@@ -61,6 +61,38 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 ![Desktop - 4](https://github.com/user-attachments/assets/6cbf4efd-efd2-457d-ad18-af37fd2828d1)
 
 
+## Composantes
+
+**Ordinateur :** 
+    - Gère l'intégratation des autres composantes,
+    - Reçois les données envoyées par le clavier MIDI,
+    - Traite et analyse le son,
+    - Opère les visuel pour le casque VR,
+    - Envoie le son vers les Hauts-parleurs,
+    -Envoie les données vidéo au moniteur,
+    
+**Clavier MIDI :**
+    - Permet à l'interacteur d'intéragir avec l'installation,
+    - Envoie les données MIDI à l'ordinateur,
+    
+**Moniteur :**
+    - Reçoit les données vidéo de l'ordinateur,
+    - Permet aux spectateur de participer à l'installation avec une recopie d'écran du casque VR,
+    
+**Console de son :**
+    - Permet d'envoyer les données sonore vers les hauts-parleurs,
+    - Gère le volume,
+    
+**Haut-parleurs :**
+    - Permet le son à l'installation,
+    
+**Chariot :**
+    - Aide à la mobilité de l'installation,
+    - Abrites les composantes (ordinateur, console de son, moniteur)
+    
+
+**Casque VR :**
+
 ## Synoptique
 ### Schéma
 <img width="1230" alt="Screenshot 2024-11-24 at 4 39 27 PM" src="https://github.com/user-attachments/assets/904b8e23-26bb-4b0a-8103-822b99ce38c6">
