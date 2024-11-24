@@ -11,6 +11,8 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
 
 Le projet s'inspire des "Music Visualizers", populaires sur les lecteurs de médias audio des appareils électroniques, particulièrement entre les années 2000 et le début des années 2010.
 
+L'idée est de moderniser les visualiseurs de musique en intégrant la réalité virtuelle, offrant ainsi une expérience plus immersive pour contempler un visualiseur audio.
+
 #### Exemples :
 - [Apple iTunes Classic Visualizer](https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2)
 - [Xbox 360 music visualizer](https://www.youtube.com/watch?v=tjI4dYWsFbM)
