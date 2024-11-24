@@ -113,10 +113,6 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 | OpenVR               | Permet l'intégration et le rendu stéréoscopique de la scène VR et gère le suivi des mouvements.        |
 | Oculus Software      | Établit la connexion et le suivi du casque Oculus avec le PC pour une immersion VR optimale.           |
 
-## Plantation
-
-![Desktop - 4](https://github.com/user-attachments/assets/9ed013e4-dcb6-41e3-b014-999a5959998b)
-
 
 ## Intégration optionelle
 
