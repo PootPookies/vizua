@@ -62,8 +62,10 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 
 
 ## Synoptique
+### Shéma
 <img width="1230" alt="Screenshot 2024-11-24 at 4 39 27 PM" src="https://github.com/user-attachments/assets/904b8e23-26bb-4b0a-8103-822b99ce38c6">
 
+### Description de la synoptique
 
 #### Entrée
 
