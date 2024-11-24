@@ -53,7 +53,8 @@ flowchart TD
 
 
 ## Synoptique
-![Diagramme sans nom drawio](https://github.com/user-attachments/assets/fb71d4a4-6987-40da-b670-2d7193b85f28)
+<img width="1230" alt="Screenshot 2024-11-24 at 4 39 27 PM" src="https://github.com/user-attachments/assets/904b8e23-26bb-4b0a-8103-822b99ce38c6">
+
 
 #### Entrée
 
@@ -128,7 +129,7 @@ Cette intégration au projet permettrait une analyse sonore plus approfondie et 
  
 #### Synoptique avec cette intégration
 
-![Diagramme sans nom drawio](https://github.com/user-attachments/assets/fb71d4a4-6987-40da-b670-2d7193b85f28)
+<img width="1219" alt="Screenshot 2024-11-24 at 4 44 58 PM" src="https://github.com/user-attachments/assets/e11f6d17-cf89-4cad-9446-73d135d1441a">
 
 
 
