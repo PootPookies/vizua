@@ -52,7 +52,12 @@ flowchart TD
 - Écran (moniteur) pour l'affichage de la vue en VR
 
 ## Plantation
+Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela permet à l'installation d'être facilement déplacer.
+
+#### Vue de coté
 ![Desktop - 5](https://github.com/user-attachments/assets/d22e469b-8029-4118-9d44-ba18b9e93709)
+
+#### Vue de dessus
 
 
 ## Synoptique
