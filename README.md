@@ -61,13 +61,13 @@ flowchart TD
 - **DAW (Digital Audio Workstation)** :
   - Reçoit le signal MIDI.
   - Modifie les sons (EQ, effets, etc.).
-  - Envoie les données audio/MIDI à PyTorch et à TouchDesigner.
+  - Envoie les données audio/MIDI à TouchDesigner.
 
 #### Création Visuelle
 
 - **TouchDesigner** :
-  - Reçoit les données MIDI/audio et les résultats d'analyse de PyTorch.
-  - Crée des visuels dynamiques basés sur les notes jouées et l'analyse AI.
+  - Reçoit les données MIDI/audio.
+  - Crée des visuels dynamiques basés sur les notes jouées.
   - Intègre des éléments 3D et de l'instancing pour des visuels complexes.
 
 #### Rendu VR
