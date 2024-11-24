@@ -51,6 +51,9 @@ flowchart TD
 - Chariot avec roulette pour la mobilité de l'installation
 - Écran (moniteur) pour l'affichage de la vue en VR
 
+## Plantation
+![Desktop - 5](https://github.com/user-attachments/assets/d22e469b-8029-4118-9d44-ba18b9e93709)
+
 
 ## Synoptique
 <img width="1230" alt="Screenshot 2024-11-24 at 4 39 27 PM" src="https://github.com/user-attachments/assets/904b8e23-26bb-4b0a-8103-822b99ce38c6">
