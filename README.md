@@ -63,19 +63,6 @@ flowchart TD
   - Modifie les sons (EQ, effets, etc.).
   - Envoie les données audio/MIDI à PyTorch et à TouchDesigner.
 
-#### Analyse AI
-
-- **Framework PyTorch** :
-  - Reçoit le signal audio/MIDI modifié du DAW.
-  - Analyse le son (détection de motifs, classification d'émotions).
-  - Envoie les résultats d'analyse à TouchDesigner via OSC/WebSocket.
-
-#### Communication
-
-- **OSC / WebSocket** :
-  - Transporte les données d'analyse de PyTorch vers TouchDesigner en temps réel.
-  - Synchronise les échanges de données entre le DAW, PyTorch et TouchDesigner.
-
 #### Création Visuelle
 
 - **TouchDesigner** :
@@ -111,7 +98,6 @@ flowchart TD
 |----------------------|--------------------------------------------------------------------------------------------------------|
 | TouchDesigner        | Génère des visuels interactifs et les rend en temps réel dans un environnement VR.                     |
 | DAW (Ableton/Logic)  | Capture, modifie et traite les signaux MIDI/audio pour enrichir l'expérience sonore.                   |
-| PyTorch              | Analyse les caractéristiques du son à l'aide de l'IA et transmet les données interprétées.            |
 | OpenVR               | Permet l'intégration et le rendu stéréoscopique de la scène VR et gère le suivi des mouvements.        |
 | OSC (Open Sound Control) | Protocole utilisé pour transmettre les données d'analyse et de contrôle en temps réel à TouchDesigner. |
 | Oculus Software      | Établit la connexion et le suivi du casque Oculus avec le PC pour une immersion VR optimale.           |
@@ -120,6 +106,29 @@ flowchart TD
 
 ![Desktop - 4](https://github.com/user-attachments/assets/9ed013e4-dcb6-41e3-b014-999a5959998b)
 
+
+## Intégration optionelle
+
+### Analyse du son par l'intelligence artificielle (AI)
+Cette intégration au projet permettrait une analyse sonore plus approfondie et poussée grâce à l'utilisation de frameworks d'intelligence artificielle. Des outils comme PyTorch seraient utilisés pour créer ou adapter des frameworks existants. Les données résultant de cette analyse seraient transmises via des protocoles de communication tels qu'OSC ou WebSocket vers TouchDesigner. Cette approche donnerait naissance à des visuels plus uniques et captivants.
+
+
+#### Analyse AI
+
+- **Framework PyTorch** :
+  - Reçoit le signal audio/MIDI modifié du DAW.
+  - Analyse le son (détection de motifs, classification d'émotions).
+  - Envoie les résultats d'analyse à TouchDesigner via OSC/WebSocket.
+
+#### Communication
+
+- **OSC / WebSocket** :
+  - Transporte les données d'analyse de PyTorch vers TouchDesigner en temps réel.
+  - Synchronise les échanges de données entre le DAW, PyTorch et TouchDesigner.
+ 
+#### Synoptique avec cette intégration
+
+![Diagramme sans nom drawio](https://github.com/user-attachments/assets/fb71d4a4-6987-40da-b670-2d7193b85f28)
 
 
 
