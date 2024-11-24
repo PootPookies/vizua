@@ -64,34 +64,35 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 ## Composantes
 
 **Ordinateur :** 
-    - Gère l'intégratation des autres composantes,
-    - Reçois les données envoyées par le clavier MIDI,
-    - Traite et analyse le son,
-    - Opère les visuel pour le casque VR,
+- Gère l'intégratation des autres composantes,
+- Reçois les données envoyées par le clavier MIDI,
+- Traite et analyse le son,
+- Opère les visuel pour le casque VR,
     - Envoie le son vers les Hauts-parleurs,
     -Envoie les données vidéo au moniteur,
     
 **Clavier MIDI :**
-    - Permet à l'interacteur d'intéragir avec l'installation,
-    - Envoie les données MIDI à l'ordinateur,
+- Permet à l'interacteur d'intéragir avec l'installation,
+- Envoie les données MIDI à l'ordinateur,
     
 **Moniteur :**
-    - Reçoit les données vidéo de l'ordinateur,
-    - Permet aux spectateur de participer à l'installation avec une recopie d'écran du casque VR,
+- Reçoit les données vidéo de l'ordinateur,
+- Permet aux spectateur de participer à l'installation avec une recopie d'écran du casque VR,
     
 **Console de son :**
-    - Permet d'envoyer les données sonore vers les hauts-parleurs,
-    - Gère le volume,
+- Permet d'envoyer les données sonore vers les hauts-parleurs,
+- Gère le volume,
     
 **Haut-parleurs :**
-    - Permet le son à l'installation,
+- Permet le son à l'installation,
     
 **Chariot :**
-    - Aide à la mobilité de l'installation,
-    - Abrites les composantes (ordinateur, console de son, moniteur)
-    
+- Aide à la mobilité de l'installation,
+- Abrites les composantes (ordinateur, console de son, moniteur),
 
 **Casque VR :**
+- Environement visuel de l'installation,
+- Permet à l'interacteur d'intéragir avec l'installation,
 
 ## Synoptique
 ### Schéma
