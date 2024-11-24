@@ -1,4 +1,4 @@
-# Vizua - Planification
+# Vizua
 
 [Précédement Wave3D](https://jejed8.github.io/wave3d/)
 
