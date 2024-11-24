@@ -37,9 +37,9 @@ flowchart TD
 - Ordinateur (Étant capable de supporter les requis logiciel)
 - Haut-Parleur Surround x4
 - Console de son
-
-### Materiel fourni par l'artiste 
-- Clavier MIDI Launchkey 49 Ableton
+- Clavier MIDI
+- Chariot avec roulette pour la mobilité de l'installation
+- Écran (moniteur) pour l'affichage de la vue en VR
 
 
 ## Synoptique
