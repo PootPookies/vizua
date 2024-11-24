@@ -68,8 +68,8 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 - Reçois les données envoyées par le clavier MIDI,
 - Traite et analyse le son,
 - Opère les visuel pour le casque VR,
-    - Envoie le son vers les Hauts-parleurs,
-    -Envoie les données vidéo au moniteur,
+- Envoie le son vers les Hauts-parleurs,
+-Envoie les données vidéo au moniteur,
     
 **Clavier MIDI :**
 - Permet à l'interacteur d'intéragir avec l'installation,
