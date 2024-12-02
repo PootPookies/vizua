@@ -1,22 +1,31 @@
 # Vizua
 
-[Précédement Wave3D](https://jejed8.github.io/wave3d/)
+[Précédemment Wave3D](https://jejed8.github.io/wave3d/)
 
-## Concept 
+---
+
+## Concept
+
 L'expérience est une installation immersive où l'utilisateur joue sur un clavier MIDI et voit des visuels dynamiques se déployer autour de lui en réalité virtuelle. Chaque note déclenche des animations spectaculaires qui réagissent en temps réel, créant un spectacle audiovisuel captivant et interactif.
 
-<img width="1710" alt="Screenshot 2024-11-04 at 3 59 05 PM" src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e">
+---
 
-### Inspiration
+### ![Visual example](https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e)
+
+---
+
+## Inspiration
 
 Le projet s'inspire des "Music Visualizers", populaires sur les lecteurs de médias audio des appareils électroniques, particulièrement entre les années 2000 et le début des années 2010.
 
-L'idée est de moderniser les visualiseurs de musique en intégrant la réalité virtuelle, offrant ainsi une expérience plus immersive pour contempler un visualiseur audio.
+---
 
 #### Exemples :
+
 - [Apple iTunes Classic Visualizer](https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2)
 - [Xbox 360 music visualizer](https://www.youtube.com/watch?v=tjI4dYWsFbM)
 
+---
 
 ## Scénario interactif
 
@@ -37,12 +46,11 @@ flowchart TD
     n15 --> n17["écouter performance"] & n14
     n14 -- moins de 2min --> n5
     n17 --> n16
-```
 
 
 ## Devis
 
-### Location / emprunt 
+### Location / emprunt
 - Caque VR (oculus)
 - Ordinateur (Étant capable de supporter les requis logiciel)
 - Haut-Parleur Surround x4
@@ -63,29 +71,29 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 
 ## Composantes
 
-**Ordinateur :** 
+**Ordinateur :**
 - Gère l'intégratation des autres composantes,
 - Reçois les données envoyées par le clavier MIDI,
 - Traite et analyse le son,
 - Opère les visuel pour le casque VR,
 - Envoie le son vers les Hauts-parleurs,
 -Envoie les données vidéo au moniteur,
-    
+
 **Clavier MIDI :**
 - Permet à l'interacteur d'intéragir avec l'installation,
 - Envoie les données MIDI à l'ordinateur,
-    
+
 **Moniteur :**
 - Reçoit les données vidéo de l'ordinateur,
 - Permet aux spectateur de participer à l'installation avec une recopie d'écran du casque VR,
-    
+
 **Console de son :**
 - Permet d'envoyer les données sonore vers les hauts-parleurs,
 - Gère le volume,
-    
+
 **Haut-parleurs :**
 - Permet le son à l'installation,
-    
+
 **Chariot :**
 - Aide à la mobilité de l'installation,
 - Abrites les composantes (ordinateur, console de son, moniteur),
@@ -165,7 +173,7 @@ Cette intégration au projet permettrait une analyse sonore plus approfondie et 
 - **OSC / WebSocket** :
   - Transporte les données d'analyse de PyTorch vers TouchDesigner en temps réel.
   - Synchronise les échanges de données entre le DAW, PyTorch et TouchDesigner.
- 
+
 #### Synoptique avec cette intégration
 
 <img width="1219" alt="Screenshot 2024-11-24 at 4 44 58 PM" src="https://github.com/user-attachments/assets/e11f6d17-cf89-4cad-9446-73d135d1441a">
@@ -177,3 +185,4 @@ Cette intégration au projet permettrait une analyse sonore plus approfondie et 
 
 
 
+```
