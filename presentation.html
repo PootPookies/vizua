@@ -1,138 +1,383 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vizua - Visualiseur Musical</title>
 
     <!-- CSS de Reveal.js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/solarized.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/solarized.css"
+    />
 
     <!-- Styles personnalisés -->
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
+      body {
+        font-family: Arial, sans-serif;
+      }
 
-        .reveal section {
-            text-align: center;
-            font-size: 1em;
-        }
+      .reveal section {
+        text-align: center;
+        font-size: 1em;
+      }
 
-        img {
-            width: 100%;
-            max-width: 600px;
-        }
+      img {
+        width: 100%;
+        max-width: 600px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Présentation Reveal.js -->
     <div class="reveal">
-        <div class="slides">
+      <div class="slides">
+        <!-- Diapositive 1 : Introduction -->
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h2>Vizua - Visualiseur Musical</h2>
+          <h4>
+            Vivez une expérience visuelle dynamique pilotée par l'entrée du
+            clavier MIDI en réalité virtuelle.
+          </h4>
+          <img
+            src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e"
+            alt="Capture d'écran de Vizua"
+            
+          />
+        </section>
 
-            <!-- Diapositive 1 : Introduction -->
-            <section data-auto-animate data-auto-animate-unmatched="fade">
-                <h1>Vizua - Visualiseur Musical</h1>
-                <p>Vivez une expérience visuelle dynamique pilotée par l'entrée du clavier MIDI en réalité virtuelle.
-                </p>
-                <img src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e"
-                    alt="Capture d'écran de Vizua">
-            </section>
+        <!-- Diapositive 2 : Inspiration -->
+        <section data-auto-animate>
+          <h2>Inspiration</h2>
+          <p>
+            Le projet s'inspire des visualiseurs musicaux des années 2000, avec
+            une touche moderne grâce à l'intégration de la VR.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2"
+                >Apple iTunes Classic Visualizer</a
+              >
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=tjI4dYWsFbM"
+                >Visualiseur musical Xbox 360</a
+              >
+            </li>
+          </ul>
+        </section>
 
-            <!-- Diapositive 2 : Inspiration -->
-            <section data-auto-animate>
-                <h2>Inspiration</h2>
-                <p>Le projet s'inspire des visualiseurs musicaux des années 2000, avec une touche moderne grâce à
-                    l'intégration de la VR.</p>
-                <ul>
-                    <li><a
-                            href="https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2">Apple
-                            iTunes Classic Visualizer</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=tjI4dYWsFbM">Visualiseur musical Xbox 360</a></li>
-                </ul>
-            </section>
+        <!-- Diapositive 3 : Scénario interactif -->
+        <section data-auto-animate>
+          <h2>Scénario interactif</h2>
+          <pre class="mermaid">
+              flowchart LR
+                  n5["Début"]
+                  n5 --> n4["Mode performance"]
+                  n4 --> n6["Début chrono 60s"]
+                  n6 --> n7["Manipulation de clavier"]
+                  n7 --> n9["Visuel ondes jouées"]
+                  n9 --> n11["Terminer"]
+                  n11 --> n14["Retourner aux choix"]
+            </pre
+          >
+        </section>
 
-            <!-- Diapositive 3 : Scénario interactif -->
-            <section data-auto-animate>
-                <h2>Scénario interactif</h2>
-                <pre>
-flowchart TD
-    n5["début"] --> n4["Mode performance"]
-    n4 --> n6["Début chrono 60s"]
-    n6 --> n7["Manipulation de clavier"]
-    n7 --> n9["Visuel ondes jouées"]
-    n9 --> n11["terminer"]
-    n11 --> n14["retourner aux choix"]
-    </pre>
-            </section>
+        <!-- Diapositive 4 : Composantes de l'installation -->
+        <section data-auto-animate>
+          <h2>Devis & Composantes</h2>
+          <p>Vue d'ensemble des composants utilisés pour Vizua.</p>
+          <ul>
+            <li>Casque VR (Oculus)</li>
+            <li>Ordinateur (supports les exigences logicielles)</li>
+            <li>Haut-Parleurs Surround x4</li>
+            <li>Console de son</li>
+            <li>Clavier MIDI</li>
+            <li>Chariot avec roulette</li>
+            <li>Écran (moniteur) pour affichage VR</li>
+          </ul>
+        </section>
 
-            <!-- Diapositive 4 : Composantes de l'installation -->
-            <section data-auto-animate>
-                <h2>Devis & Composantes</h2>
-                <p>Vue d'ensemble des composants utilisés pour Vizua.</p>
-                <ul>
-                    <li>Casque VR (Oculus)</li>
-                    <li>Ordinateur (supports les exigences logicielles)</li>
-                    <li>Haut-Parleurs Surround x4</li>
-                    <li>Console de son</li>
-                    <li>Clavier MIDI</li>
-                    <li>Chariot avec roulette</li>
-                    <li>Écran (moniteur) pour affichage VR</li>
-                </ul>
-            </section>
+        <!-- Diapositive 5 : Workflow du système -->
+        <section data-auto-animate>
+          <h2>Synoptique</h2>
+          <img
+            src="https://github.com/user-attachments/assets/904b8e23-26bb-4b0a-8103-822b99ce38c6"
+            alt="Diagramme du flux du système"
+          />
+          <p>
+            Diagramme illustrant le flux de travail du système, montrant le
+            processus du MIDI à la génération visuelle en VR.
+          </p>
+        </section>
 
-            <!-- Diapositive 5 : Workflow du système -->
-            <section data-auto-animate>
-                <h2>Synoptique</h2>
-                <img src="https://github.com/user-attachments/assets/904b8e23-26bb-4b0a-8103-822b99ce38c6"
-                    alt="Diagramme du flux du système">
-                <p>Diagramme illustrant le flux de travail du système, montrant le processus du MIDI à la génération
-                    visuelle en VR.</p>
-            </section>
+        <!-- Diapositive 6 : Liste des logiciels -->
+        <section data-auto-animate>
+          <h2>Logiciels utilisés</h2>
+          <table>
+            <tr>
+              <th>Logiciel</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>TouchDesigner</td>
+              <td>Génère des visuels dynamiques en VR en temps réel.</td>
+            </tr>
+            <tr>
+              <td>DAW (Ableton/Logic)</td>
+              <td>Capture et traite les signaux MIDI/audio.</td>
+            </tr>
+            <tr>
+              <td>OpenVR</td>
+              <td>Gère le rendu VR et le suivi des mouvements.</td>
+            </tr>
+            <tr>
+              <td>Oculus Software</td>
+              <td>Facilite la connexion et le suivi du casque Oculus.</td>
+            </tr>
+          </table>
+        </section>
 
-            <!-- Diapositive 6 : Liste des logiciels -->
-            <section data-auto-animate>
-                <h2>Logiciels utilisés</h2>
-                <table>
-                    <tr>
-                        <th>Logiciel</th>
-                        <th>Description</th>
-                    </tr>
-                    <tr>
-                        <td>TouchDesigner</td>
-                        <td>Génère des visuels dynamiques en VR en temps réel.</td>
-                    </tr>
-                    <tr>
-                        <td>DAW (Ableton/Logic)</td>
-                        <td>Capture et traite les signaux MIDI/audio.</td>
-                    </tr>
-                    <tr>
-                        <td>OpenVR</td>
-                        <td>Gère le rendu VR et le suivi des mouvements.</td>
-                    </tr>
-                    <tr>
-                        <td>Oculus Software</td>
-                        <td>Facilite la connexion et le suivi du casque Oculus.</td>
-                    </tr>
-                </table>
-            </section>
+        <!-- Diapositive 7 : Produit minimum viable  -->
+        <section data-auto-animate>
+          <h2>Produit minimum viable</h2>
+          <p>
+            <strong><em>Interactivité</em></strong>
+          </p>
+          <p>...</p>
+          <p>
+            <strong><em>Visuel</em></strong>
+          </p>
+          <p>...</p>
+          <p>
+            <strong><em>Matériel</em></strong>
+          </p>
+          <p>...</p>
+          <p>
+            <strong><em>Sonore</em></strong>
+          </p>
+          <p>...</p>
+        </section>
+        <!-- Diapositive 8 : Matrice de risques  -->
+        <section data-auto-animate>
+          <h2>Matrice de risques</h2>
+          <p><strong>R1: </strong>...</p>
+          <p><strong>R2: </strong>...</strong></p>
+          <p><strong>R3: </strong>...</strong></p>
+          <p><strong>R4: </strong>...</strong></p>
+          <p><strong>R5: </strong>...</strong></p>
+          <p><strong>R6: </strong>...</strong></p>
+          <p><strong>...</strong></p>
+        </section>
 
-        </div>
+        <!-- Diapositive 9 : Matrice de risques (image de la matrice)  -->
+        <section data-auto-animate>
+          <img src="" alt="" />
+        </section>
+
+        <!-- Diapositive 10 : Matrice de risques (description écrite)  -->
+        <section data-auto-animate>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+        </section>
+
+        <!-- Diapositive 11 : Test à réaliser  -->
+        <section data-auto-animate>
+            <h1>Test à réaliser</h1>
+        </section>
+
+        <!-- Diapositive 12 : Test à réaliser -->
+        <section data-auto-animate>
+            <h3>Scénario 1</h3>
+            <table style="font-size: 20px;">
+                <tr>
+                    <th><em>Scénario 1</em></th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Identification</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Priorité</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Date limite</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Contraintes</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Dépendances</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Procédure de test</th>
+                    <td>
+                        <strong>Données d'entrée:</strong> ... <br>
+                        <strong>Résultats attendu:</strong> ... <br>
+                        <strong>Critères de validation:</strong> ...
+                    </td>
+                </tr>
+                <tr>
+                    <th>Résultat</th>
+                    <td>...</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Diapositive 13 : Test à réaliser -->
+        <section data-auto-animate>
+            <h3>Scénario 2</h3>
+            <table style="font-size: 20px;">
+                <tr>
+                    <th><em>Scénario 2</em></th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Identification</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Priorité</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Date limite</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Contraintes</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Dépendances</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Procédure de test</th>
+                    <td>
+                        <strong>Données d'entrée:</strong> ... <br>
+                        <strong>Résultats attendu:</strong> ... <br>
+                        <strong>Critères de validation:</strong> ...
+                    </td>
+                </tr>
+                <tr>
+                    <th>Résultat</th>
+                    <td>...</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Diapositive 14 : Test à réaliser -->
+        <section data-auto-animate>
+            <h3>Scénario 3</h3>
+            <table style="font-size: 20px;">
+                <tr>
+                    <th><em>Scénario 3</em></th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Identification</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Priorité</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Date limite</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Contraintes</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Dépendances</th>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>Procédure de test</th>
+                    <td>
+                        <strong>Données d'entrée:</strong> ... <br>
+                        <strong>Résultats attendu:</strong> ... <br>
+                        <strong>Critères de validation:</strong> ...
+                    </td>
+                </tr>
+                <tr>
+                    <th>Résultat</th>
+                    <td>...</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Diapositive 15 : Étude de faisabilité  -->
+        <section data-auto-animate>
+          <h1>Étude de faisabilité</h1>
+        </section>
+
+        <!-- Diapositive 16 : Étude de faisabilité  -->
+        <section data-auto-animate>
+            <ul>
+              <li>Techniquement</li>
+              <ul>
+                <li>...</li>
+              </ul>
+              <li>Économiquement</li>
+              <ul>
+                <li>...</li>
+              </ul>
+              <li>Opérationnellement</li>
+              <ul>
+                <li>...</li>
+              </ul>
+              <li>Documentation</li>
+              <ul>
+                <li>...</li>
+              </ul>
+            </ul>
+          </section>
+      </div>
     </div>
 
     <!-- Script de Reveal.js et initialisation -->
     <script src="https://cdn.jsdelivr.net/npm/reveal.js"></script>
     <script>
-        Reveal.initialize({
-            autoAnimate: true,
-            transition: 'slide', // Options : fade, slide, zoom
-            transitionSpeed: 'fast'
-        });
+      Reveal.initialize({
+        autoAnimate: true,
+        transition: "slide", // Options : fade, slide, zoom
+        transitionSpeed: "fast",
+      });
     </script>
-</body>
-
+    <!-- Import Mermaid -->
+    <script type="module">
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+      mermaid.initialize({ startOnLoad: true });
+      window.mermaid = mermaid;
+    </script>
+  </body>
 </html>
