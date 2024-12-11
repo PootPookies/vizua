@@ -23,19 +23,8 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 ## Scénario interactif
 
-```mermaid
-graph TD
-    %% Début de l'expérience utilisateur
-    A[L'utilisateur met le casque VR] --> B[Immersion dans un espace visuel correspondant au preset sonore choisi]
+![scenario_interactif](https://github.com/user-attachments/assets/8c6d00b4-db89-41f6-b4a0-23018423e6c2)
 
-    %% Interaction principale
-    B --> C[L'utilisateur joue des notes sur un clavier physique]
-    C -->|Chaque note jouée| D[Les sons et visuels réagissent en synchronisation]
-
-    %% Boucle immersive
-    D -->|Continue à jouer| C
-
-```
 ## Gestion d'équipe 
 
 ![diagramme_taches](https://github.com/user-attachments/assets/50cee5a7-040e-40d2-9885-c0ad2a641291)
