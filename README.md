@@ -60,24 +60,15 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 
 ## Composantes
 
-**Ordinateur :**
+**Clavier MIDI:**
 
-- Gère l'intégratation des autres composantes,
-- Reçois les données envoyées par le clavier MIDI,
-- Traite et analyse le son,
-- Opère les visuel pour le casque VR,
-- Envoie le son vers les Hauts-parleurs,
-  -Envoie les données vidéo au moniteur,
+- C’est l’interface principale pour l’utilisateur.
+- Permet de jouer des notes et des accords qui génèrent à la fois des sons (via le DAW) et des animations visuelles (via PlugData/PureData et TouchDesigner).
+- Envoie des signaux MIDI à l’ordinateur pour traitement.
 
-**Clavier MIDI :**
+**Haut-parleurs :**
 
-- Permet à l'interacteur d'intéragir avec l'installation,
-- Envoie les données MIDI à l'ordinateur,
-
-**Moniteur :**
-
-- Reçoit les données vidéo de l'ordinateur,
-- Permet aux spectateur de participer à l'installation avec une recopie d'écran du casque VR,
+- Diffusent le son produit par le DAW pour créer une expérience immersive.
 
 **Console de son :**
 
@@ -88,15 +79,36 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 
 - Permet le son à l'installation,
 
+  **Supports pour haut-parleurs**
+
+  -Placés stratégiquement pour offrir une diffusion sonore équilibrée.
+
+**Ordinateur :**
+
+- C’est le cœur de l’installation.
+- Gère tous les logiciels et traite les signaux MIDI/audio.
+- Génère les visuels dans TouchDesigner en réponse aux données MIDI.
+- Transmet les visuels au casque VR et les sons aux haut-parleurs.
+
+**Moniteur :**
+
+- Reçoit les données vidéo de l'ordinateur,
+- Permet aux spectateur de participer à l'installation avec une recopie d'écran du casque VR,
+
+**Casque VR :**
+
+- Permet une immersion totale en affichant les visuels générés par TouchDesigner dans un environnement virtuel.
+- Suit les mouvements de la tête de l’utilisateur pour ajuster les perspectives visuelles.
+
 **Chariot :**
 
 - Aide à la mobilité de l'installation,
 - Abrites les composantes (ordinateur, console de son, moniteur),
 
-**Casque VR :**
+**Câblage :**
 
-- Environement visuel de l'installation,
-- Permet à l'interacteur d'intéragir avec l'installation,
+Connecte toutes les composantes entre elles (clavier, casque, haut-parleurs).
+Assure une alimentation stable.
 
 ## Synoptique
 
