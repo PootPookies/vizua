@@ -22,7 +22,7 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 - [Xbox 360 music visualizer](https://www.youtube.com/watch?v=tjI4dYWsFbM)
 - [Folding Space - Generative Modular Ambient](https://www.youtube.com/watch?v=6JeZR13dLLI)
 
-##Moodboard
+## Moodboard
 ![moodboard_visuel](https://github.com/user-attachments/assets/e66e0001-dc04-472f-a116-b22a92569dc7)
 
 
@@ -269,15 +269,5 @@ L’interacteur doit être en mesure d’entendre les sons qu’il joue à parti
 ![matrice_risques](https://github.com/user-attachments/assets/40cac427-1336-4d6e-8c84-d6e71b1b11d3)
 
 ---
-
-## Plan de gestion des risques
-
-- Dans les premières semaines, des tests approfondis seront effectués pour vérifier la synchronisation des éléments visuels et sonores (R1, R4). Ces tests incluront des scénarios où l’interaction est intense afin de garantir la stabilité du système.
-
-- Pour le risque lié à l’équipement (R3, R5), une vérification rigoureuse des calibrages sera réalisée avant chaque phase de test. Les données obtenues lors des tests serviront à ajuster les paramètres pour minimiser les erreurs.
-
-- Concernant les problèmes d’expérience utilisateur (R7), une première phase d’essais utilisateurs sera organisée pour recueillir des retours. Les ajustements nécessaires seront effectués en fonction des observations recueillies.
-
-- Pour éviter tout blocage majeur, l’équipe se concentrera sur les risques critiques (Élevés) dans les premières étapes du projet. Ce travail préliminaire assurera une base technique solide avant l’intégration complète des fonctionnalités interactives.
 
 
