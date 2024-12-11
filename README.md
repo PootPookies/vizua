@@ -50,6 +50,8 @@ graph TD
 
 Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela permet à l'installation d'être facilement déplacer.
 
+## Zone de plantation
+
 #### Vue de coté
 
 ![Desktop - 5](https://github.com/user-attachments/assets/d22e469b-8029-4118-9d44-ba18b9e93709)
@@ -115,7 +117,6 @@ Assure une alimentation stable.
 ### Schéma
 
 <img width="1123" alt="mermaid" src="https://github.com/user-attachments/assets/c9f545fd-83d7-4427-95d6-e34df8259d4b">
-
 
 ### Description de la synoptique
 
