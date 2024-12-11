@@ -209,8 +209,9 @@ Assure une alimentation stable.
 | Soundflower (macOS) ou Voicemeeter (Windows) | Gère les flux audio pour un monitoring précis et avancé.                                         |
 ---
 
-## Produit Minimum Viable
+#Contrôle de qualité
 
+## Produit Minimum Viable
 ### Interactivité
 
 L’interacteur doit être en mesure d’entendre les notes qu’il joue au clavier et de voir un visuel apparaître dans le casque.
