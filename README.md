@@ -46,7 +46,7 @@ graph TD
 **Équipement fourni par l'école pour l'installation immersive Vizua**
 
 | **Équipement**                        | **Description**                                                                          |
-| ------------------------------------- | ---------------------------------------------------------------------------------------- | ---------- |
+| ------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Haut-parleurs surround x4             | Système de son surround pour une expérience immersive complète.                          |
 | Console de son                        | Console permettant de gérer et diriger le son vers les haut-parleurs.                    |
 | Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   |
@@ -54,7 +54,7 @@ graph TD
 | Câbles et connecteurs divers          | Câbles HDMI, USB, audio, alimentation et autres connecteurs nécessaires pour le montage. |
 | Support pour Casque VR (optionnel)    | Support pour ranger et organiser le casque VR de manière pratique.                       |
 | Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.    |
-| Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   |
+
 
 ---
 
