@@ -56,6 +56,7 @@ graph TD
 
     A -->|Documentation| L[Création du scénario interactif]
     A -->|Documentation| M[Présentation du projet et rapport final]
+
 ```
 
 ---
