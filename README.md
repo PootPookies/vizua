@@ -20,11 +20,12 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 - [Apple iTunes Classic Visualizer](https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2)
 - [Xbox 360 music visualizer](https://www.youtube.com/watch?v=tjI4dYWsFbM)
-- [Folding Space - Generative Modular Ambient](https://www.youtube.com/watch?v=6JeZR13dLLI)
 
 ## Moodboard
 ![moodboard_visuel](https://github.com/user-attachments/assets/e66e0001-dc04-472f-a116-b22a92569dc7)
 
+## Palette Sonore
+- [Folding Space - Generative Modular Ambient](https://www.youtube.com/watch?v=6JeZR13dLLI)
 
 ## Scénario interactif
 
