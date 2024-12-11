@@ -36,14 +36,14 @@ graph TD
     D -->|Continue à jouer| C
 
 ```
-## Gestion d'équipe 
+
+## Gestion d'équipe
 
 ![diagramme_taches](https://github.com/user-attachments/assets/50cee5a7-040e-40d2-9885-c0ad2a641291)
 
 ## Échéancier
 
 <img width="1127" alt="planification_temps" src="https://github.com/user-attachments/assets/cea34dab-4069-49c9-82e1-824088a112db" />
-
 
 ---
 
@@ -67,7 +67,6 @@ graph TD
 | Support pour Casque VR                | Support pour ranger et organiser le casque VR de manière pratique.                       |
 | Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.    |
 
-
 ---
 
 ### Location / emprunt
@@ -87,7 +86,7 @@ graph TD
 
 Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela permet à l'installation d'être facilement déplacer.
 
-## Zone de plantati
+## Zone de plantation
 
 ![gestion_emplacement](https://github.com/user-attachments/assets/177daa44-8fdc-40c9-82bb-6dd5230f785f)
 
@@ -199,7 +198,7 @@ Assure une alimentation stable.
 
 #### Résumé du Flux
 
-**Clavier MIDI ➔ DAW  ➔ Transmission OSC/WebSocket ➔ TouchDesigner ➔ Rendu VR (OpenVR).**
+**Clavier MIDI ➔ DAW ➔ Transmission OSC/WebSocket ➔ TouchDesigner ➔ Rendu VR (OpenVR).**
 
 **Interaction utilisateur (contrôleurs) ➔ TouchDesigner ➔ Feedback en temps réel.**
 
@@ -216,4 +215,3 @@ Assure une alimentation stable.
 | MIDI Monitor (macOS) ou MIDI-OX (Windows)    | Visualise les signaux MIDI pour vérifier la configuration et détecter les erreurs.               |
 | Virtual Audio Cable (ou équivalent)          | Permet de router l’audio entre différents logiciels si nécessaire.                               |
 | Soundflower (macOS) ou Voicemeeter (Windows) | Gère les flux audio pour un monitoring précis et avancé.                                         |
-
