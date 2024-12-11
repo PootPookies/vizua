@@ -50,7 +50,9 @@ graph TD
 
 Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela permet à l'installation d'être facilement déplacer.
 
-## Zone de plantation
+## Zone de plantation dans le studio
+
+![Gestion-1](https://github.com/user-attachments/assets/fd8d11cb-27ed-497b-9a73-a54c86aa4bec)
 
 #### Vue de coté
 
