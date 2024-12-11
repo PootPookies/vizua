@@ -52,6 +52,8 @@
           Chaque note déclenche des animations spectaculaires qui réagissent en temps réel,
           créant un spectacle audiovisuel captivant et interactif.
         </p>
+        <img src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e"
+          alt="Capture d'écran de l'expérience">
       </section>
 
       <!-- Diapositive 3 :Introduction - Inspiration -->
@@ -72,10 +74,160 @@
         </ul>
       </section>
 
+      <!-- Slide 4: Scénario interactif -->
+      <section>
+        <h2>Scénario interactif</h2>
+        <pre>
+    </pre>
+      </section>
+
+
+
       <!-- Diapositive 4 : Introduction - Produit minimum viable  -->
       <section data-auto-animate>
         <h1>Produit minimum viable</h1>
       </section>
+
+      <!-- Slide 5: Devis -->
+      <section data-auto-animate>
+        <h2>Devis</h2>
+        <h3>Devis pour l'installation immersive Vizua</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Équipement</th>
+              <th>Description</th>
+              <th>Prix estimé</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Matériel pour l'installation physique</td>
+              <td>Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.</td>
+              <td>135,00 CAD</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section data-auto-animate>
+        <h3>Équipement fourni par l'école</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Équipement</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Haut-parleurs surround x4</td>
+              <td>Système de son surround pour une expérience immersive complète.</td>
+            </tr>
+            <tr>
+              <td>Console de son</td>
+              <td>Console permettant de gérer et diriger le son vers les haut-parleurs.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+
+      <!-- Slide 6: Composantes -->
+      <section data-auto-animate="">
+        <h2>Composantes</h2>
+        <h3>Clavier MIDI</h3>
+        <p>C’est l’interface principale pour l’utilisateur. Il permet de jouer des notes et des accords qui génèrent à
+          la fois des sons (via le DAW) et des animations visuelles (via PlugData/PureData et TouchDesigner).</p>
+        <h3>Haut-parleurs</h3>
+        <p>Ils diffusent le son produit par le DAW pour créer une expérience immersive.</p>
+      </section>
+
+
+
+      <section data-auto-animate=>
+        <h2>Synoptique</h2>
+        <img src="https://github.com/user-attachments/assets/c9f545fd-83d7-4427-95d6-e34df8259d4b"
+          alt="Schéma de la synoptique">
+        <h3>Description de la synoptique</h3>
+        <p><strong>Entrée :</strong> Le clavier MIDI envoie des signaux MIDI au DAW, qui les traite et les transmet à
+          TouchDesigner pour la création visuelle.</p>
+      </section>
+
+
+      <section data-auto-animate>
+        <h2>Liste des logiciels</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Logiciel</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TouchDesigner</td>
+              <td>Génère des visuels interactifs et les rend en temps réel dans un environnement VR.</td>
+            </tr>
+            <tr>
+              <td>DAW (Ableton/Logic)</td>
+              <td>Capture et modifie les signaux MIDI/audio pour enrichir l'expérience sonore.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Slide 8: Liste des logiciels -->
+      <section data-auto-animate>
+        <h2>Liste des logiciels</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Logiciel</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TouchDesigner</td>
+              <td>Génère des visuels interactifs et les rend en temps réel dans un environnement VR.</td>
+            </tr>
+            <tr>
+              <td>DAW (Ableton/Logic)</td>
+              <td>Capture et modifie les signaux MIDI/audio pour enrichir l'expérience sonore.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+
+      <!-- Slide 9: Diagramme de communication -->
+      <section data-auto-animate>
+        <h2>Diagramme de communication</h2>
+        <pre>
+                  sequenceDiagram
+                      participant MIDI as Clavier MIDI
+                      participant DAW as DAW (Ableton/Logic)
+                      participant PD as PlugData/PureData
+                      participant TD as TouchDesigner
+                      participant VR as OpenVR
+                      participant Headset as Casque VR
+                      participant Monitor as Moniteur
+                      participant User as Utilisateur
+      
+                      MIDI->>DAW: Envoie signal MIDI
+                      DAW->>PD: Transmet les données audio/MIDI
+                      PD->>TD: Envoie les données pour créer des visuels
+                      TD->>VR: Rendu stéréoscopique pour immersion
+                      VR->>Headset: Transfert de l'image à l'utilisateur
+                      Headset->>TD: Réception des interactions de l'utilisateur
+                      TD->>Monitor: Affichage des visuels sur moniteur
+                      TD->>User: Feedback visuel/haptique en temps réel
+                </pre>
+      </section>
+
+
+
 
       <!-- Diapositive 5 : Introduction - Produit minimum viable  -->
       <section data-auto-animate>
@@ -114,6 +266,9 @@
           <li>Écran (moniteur) pour affichage VR</li>
         </ul>
       </section>
+
+
+
       <!-- Diapositive 8 : Introduction - Produit minimum viable  -->
       <section data-auto-animate>
         <h4>
