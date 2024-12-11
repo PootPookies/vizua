@@ -37,6 +37,7 @@ graph TD
 
 ```
 ## Gestion d'équipe 
+
 ``` mermaid
 graph TD
     A[Chef de projet (Ikrame Rata)] -->|Coordination & Gestion| B[Designer (Jeremy Duverseau)]
@@ -56,9 +57,6 @@ graph TD
     A -->|Documentation| L[Création du scénario interactif]
     A -->|Documentation| M[Présentation du projet et rapport final]
 ```
-
-
-
 
 ---
 
