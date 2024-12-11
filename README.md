@@ -20,6 +20,11 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 - [Apple iTunes Classic Visualizer](https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2)
 - [Xbox 360 music visualizer](https://www.youtube.com/watch?v=tjI4dYWsFbM)
+- [Folding Space - Generative Modular Ambient](https://www.youtube.com/watch?v=6JeZR13dLLI)
+
+##Moodboard
+![moodboard_visuel](https://github.com/user-attachments/assets/e66e0001-dc04-472f-a116-b22a92569dc7)
+
 
 ## Scénario interactif
 
@@ -258,6 +263,10 @@ L’interacteur doit être en mesure d’entendre les sons qu’il joue à parti
 ### R7 : Les utilisateurs pourraient éprouver des difficultés à comprendre les interactions possibles dans l’espace immersif.  
 **Priorité : Faible**  
 **Solution** : Fournir des indications visuelles ou sonores intuitives pour guider l’utilisateur.
+
+![risques](https://github.com/user-attachments/assets/fa78ba27-3acf-4deb-bebc-2ea8f9f2efd4)
+
+![matrice_risques](https://github.com/user-attachments/assets/40cac427-1336-4d6e-8c84-d6e71b1b11d3)
 
 ---
 
