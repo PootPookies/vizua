@@ -228,5 +228,47 @@ Le matériel suivant est nécessaire pour que l’installation soit au minimum v
 
 L’interacteur doit être en mesure d’entendre les sons qu’il joue à partir du clavier MIDI.
 
+---
+## Évaluation des risques du projet
+
+### R1 : Les animations visuelles pourraient souffrir de ralentissements ou de latence lors de l’interaction avec le clavier MIDI. 
+**Priorité : Élevée**  
+**Solution** : Optimiser les performances dans TouchDesigner et effectuer des tests rigoureux pour garantir une fluidité dans le traitement des données MIDI et l'affichage des visuels en temps réel.
+
+### R2 : Les haut-parleurs risquent de produire des décalages sonores ou des distorsions pendant les tests interactifs.  
+**Priorité : Moyenne**  
+**Solution** : Effectuer des tests de calibrage audio et ajuster les présets sonores avant l’intégration finale.
+
+### R3 : Le casque VR pourrait provoquer des problèmes de compatibilité ou d’affichage non prévus.  
+**Priorité : Élevée**  
+**Solution** : Tester le matériel sur plusieurs systèmes et configurations d’ordinateur pour identifier les problèmes potentiels.
+
+### R4 : Risque de perte de synchronisation entre les éléments visuels et sonores lors de changements dynamiques.  
+**Priorité : Élevée**  
+**Solution** : Améliorer la gestion des événements temps réel dans le moteur graphique et audio.
+
+### R5 : Le clavier MIDI pourrait manquer de sensibilité ou ne pas capter certaines nuances de jeu.  
+**Priorité : Moyenne**  
+**Solution** : Configurer les capteurs et vérifier leur calibration pour s’adapter à une large plage d’expressivité.
+
+### R6 : Les variations de dynamique ou de rythme pourraient provoquer des bugs ou ralentir les évolutions visuelles.  
+**Priorité : Moyenne**  
+**Solution** : Tester les différents cas de variations rythmiques pour évaluer leur impact sur les visuels.
+
+### R7 : Les utilisateurs pourraient éprouver des difficultés à comprendre les interactions possibles dans l’espace immersif.  
+**Priorité : Faible**  
+**Solution** : Fournir des indications visuelles ou sonores intuitives pour guider l’utilisateur.
+
+---
+
+## Plan de gestion des risques
+
+- Dans les premières semaines, des tests approfondis seront effectués pour vérifier la synchronisation des éléments visuels et sonores (R1, R4). Ces tests incluront des scénarios où l’interaction est intense afin de garantir la stabilité du système.
+
+- Pour le risque lié à l’équipement (R3, R5), une vérification rigoureuse des calibrages sera réalisée avant chaque phase de test. Les données obtenues lors des tests serviront à ajuster les paramètres pour minimiser les erreurs.
+
+- Concernant les problèmes d’expérience utilisateur (R7), une première phase d’essais utilisateurs sera organisée pour recueillir des retours. Les ajustements nécessaires seront effectués en fonction des observations recueillies.
+
+- Pour éviter tout blocage majeur, l’équipe se concentrera sur les risques critiques (Élevés) dans les premières étapes du projet. Ce travail préliminaire assurera une base technique solide avant l’intégration complète des fonctionnalités interactives.
 
 
