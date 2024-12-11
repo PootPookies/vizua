@@ -233,36 +233,31 @@
           <h4>
             <strong>Interactivité</strong>
           </h4>
-          <ul>
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
-          </ul>
+          <p>
+            L’interacteur doit être en mesure d’entendre les notes qu’il joue au clavier et de voir un visuel apparaitre dans le casque. 
+          </p>
         </section>
         <!-- Diapositive 6 : Introduction - Produit minimum viable  -->
         <section data-auto-animate>
           <h4>
             <strong>Visuel</strong>
           </h4>
-          <ul>
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
-          </ul>
+          <p>Afin que le visuel soit intéressant, il doit au moins y avoir des animations cohérentes et en lien avec les sons joués par l’interacteur. </p>
         </section>
         <!-- Diapositive 7 : Introduction - Produit minimum viable  -->
         <section data-auto-animate>
           <h4>
             <strong>Matériel</strong>
           </h4>
+          <p>Le matériel suivant est nécessaire pour que l’installation soit au minimum viable : </p>
           <ul>
-            <li>Casque VR (Oculus)</li>
-            <li>Ordinateur (supports les exigences logicielles)</li>
-            <li>Haut-Parleurs Surround x4</li>
+            <li>1 Casque de réalité virtuel</li>
+            <li>2 Haut-parleurs Stéréo </li>
+            <li>Clavier MIDI </li>
             <li>Console de son</li>
-            <li>Clavier MIDI</li>
-            <li>Chariot avec roulette</li>
-            <li>Écran (moniteur) pour affichage VR</li>
+            <li>Ordinateur avec les bons requis logiciel </li>
+            <li>Clavier MIDI </li>
+            <li>Câblage requis </li>
           </ul>
         </section>
 
@@ -273,16 +268,12 @@
           <h4>
             <strong>Sonore</strong>
           </h4>
-          <ul>
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
-          </ul>
+          <p>L’interacteur doit être en mesure d’entendre les sons qu’il joue à partir du clavier MIDI. </p>
         </section>
 
         <!-- Diapositive 9 : Introduction -->
         <section data-auto-animate>
-          <h4>Date de livraison des test: 1 février 2025</h4>
+          <h4>Date de livraison des test: 7 février 2025</h4>
           <a href="https://github.com/PootPookies/vizua">Répertoire projet</a>
         </section>
 
@@ -293,26 +284,33 @@
 
         <!-- Diapositive 11 : Matrice de risques  -->
         <section data-auto-animate>
-          <p><strong>R1: </strong>...</p>
-          <p><strong>R2: </strong>...</strong></p>
-          <p><strong>R3: </strong>...</strong></p>
-          <p><strong>R4: </strong>...</strong></p>
-          <p><strong>R5: </strong>...</strong></p>
-          <p><strong>R6: </strong>...</strong></p>
-          <p><strong>...</strong></p>
+          <p><strong>R1: </strong>Les animations visuelles pourraient souffrir de ralentissements ou de latence lors de l’interaction avec le clavier MIDI. (Priorité : Élevée) 
+            Solution : Optimiser les performances dans TouchDesigner et effectuer des tests rigoureux pour pour garantir une fluidité dans le traitement des données MIDI et l'affichage des visuels en temps réel.</p>
+          <p><strong>R2: </strong>Les haut-parleurs risquent de produire des décalages sonores ou des distorsions pendant les tests interactifs. (Priorité : Moyenne) 
+            Solution : Effectuer des tests de calibrage audio et ajuster les présets sonores avant l’intégration finale.</strong></p>
+          <p><strong>R3: </strong>Le casque VR pourrait provoquer des problèmes de compatibilité ou d’affichage non prévus. (Priorité : Élevée) 
+            Solution : Tester le matériel sur plusieurs systèmes et configurations d’ordinateur pour identifier les problèmes potentiels.</strong></p>
+          <p><strong>R4: </strong>Risque de perte de synchronisation entre les éléments visuels et sonores lors de changements dynamiques. (Priorité : Élevée) 
+            Solution : Améliorer la gestion des événements temps réel dans le moteur graphique et audio.</strong></p>
+          <p><strong>R5: </strong>Le clavier MIDI pourrait manquer de sensibilité ou ne pas capter certaines nuances de jeu. (Priorité : Moyenne) 
+            Solution : Configurer les capteurs et vérifier leur calibration pour s’adapter à une large plage d’expressivité. </strong></p>
+          <p><strong>R6: </strong>Les variations de dynamique ou de rythme pourraient provoquer des bugs ou ralentir les évolutions visuelles. (Priorité : Moyenne) 
+            Solution : Tester les différents cas de variations rythmiques pour évaluer leur impact sur les visuels. </strong></p>
+          <p><strong>Les utilisateurs pourraient éprouver des difficultés à comprendre les interactions possibles dans l’espace immersif. (Priorité : Faible) 
+            Solution : Fournir des indications visuelles ou sonores intuitives pour guider l’utilisateur. </strong></p>
         </section>
 
         <!-- Diapositive 10 : Matrice de risques (schéma de la matrice)  -->
         <section data-auto-animate>
-          <img src="" alt="Schéma matrice de risques" />
+          <img src="/medias/schema_eval_risque.png" alt="Schéma matrice de risques" />
         </section>
 
         <!-- Diapositive 11 : Matrice de risques (Stratégie écrite face au différents risques)  -->
         <section data-auto-animate>
-          <p>...</p>
-          <p>...</p>
-          <p>...</p>
-          <p>...</p>
+          <p>Dans les premières semaines, des tests approfondis seront effectués pour vérifier la synchronisation des éléments visuels et sonores (R1, R4). Ces tests incluront des scénarios où l’interaction est intense afin de garantir la stabilité du système.</p>
+          <p>Pour le risque lié à l’équipement (R3, R5), une vérification rigoureuse des calibrages sera réalisée avant chaque phase de test. Les données obtenues lors des tests serviront à ajuster les paramètres pour minimiser les erreurs. </p>
+          <p>Concernant les problèmes d’expérience utilisateur (R7), une première phase d’essais utilisateurs sera organisée pour recueillir des retours. Les ajustements nécessaires seront effectués en fonction des observations recueillies. </p>
+          <p>Pour éviter tout blocage majeur, l’équipe se concentrera sur les risques critiques (Élevés) dans les premières étapes du projet. Ce travail préliminaire assurera une base technique solide avant l’intégration complète des fonctionnalités interactives. </p>
         </section>
 
         <!-- Diapositive 12 : Test à réaliser  -->
