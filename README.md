@@ -114,7 +114,8 @@ Assure une alimentation stable.
 
 ### Schéma
 
-<img width="1230" alt="Screenshot 2024-11-24 at 4 39 27 PM" src="https://github.com/user-attachments/assets/904b8e23-26bb-4b0a-8103-822b99ce38c6">
+<img width="1123" alt="mermaid" src="https://github.com/user-attachments/assets/c9f545fd-83d7-4427-95d6-e34df8259d4b">
+
 
 ### Description de la synoptique
 
