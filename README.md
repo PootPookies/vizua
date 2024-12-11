@@ -171,6 +171,3 @@ Assure une alimentation stable.
   - Transporte les données d'analyse de PyTorch vers TouchDesigner en temps réel.
   - Synchronise les échanges de données entre le DAW, PyTorch et TouchDesigner.
 
-#### Synoptique avec cette intégration
-
-<img width="1219" alt="Screenshot 2024-11-24 at 4 44 58 PM" src="https://github.com/user-attachments/assets/e11f6d17-cf89-4cad-9446-73d135d1441a">
