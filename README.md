@@ -172,6 +172,23 @@ Assure une alimentation stable.
 
 #### Communication
 
-- **OSC / WebSocket** :
-  - Transporte les données d'analyse de PyTorch vers TouchDesigner en temps réel.
-  - Synchronise les échanges de données entre le DAW, PyTorch et TouchDesigner.
+```mermaid
+sequenceDiagram
+    participant MIDI as Clavier MIDI
+    participant DAW as DAW (Ableton/Logic)
+    participant PD as PlugData/PureData
+    participant TD as TouchDesigner
+    participant VR as OpenVR
+    participant Headset as Casque VR
+    participant Monitor as Moniteur
+    participant User as Utilisateur
+
+    MIDI->>DAW: Envoie signal MIDI
+    DAW->>PD: Transmet les données audio/MIDI
+    PD->>TD: Envoie les données pour créer des visuels
+    TD->>VR: Rendu stéréoscopique pour immersion
+    VR->>Headset: Transfert de l'image à l'utilisateur
+    Headset->>TD: Réception des interactions de l'utilisateur
+    TD->>Monitor: Affichage des visuels sur moniteur
+    TD->>User: Feedback visuel/haptique en temps réel
+```
