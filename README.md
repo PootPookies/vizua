@@ -39,23 +39,22 @@ graph TD
 
 **Devis pour l'installation immersive Vizua**
 
-| **Équipement**                          | **Description**                                                                             | **Prix estimé**    |
-|----------------------------------------|---------------------------------------------------------------------------------------------|--------------------|
-| Écran (Moniteur)                       | Écran pour afficher la vue en VR pour les spectateurs.                                      | 270,00 CAD         |
-| Matériel pour l'installation physique  | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.        | 135,00 CAD         |
+| **Équipement**                        | **Description**                                                                       | **Prix estimé** |
+| ------------------------------------- | ------------------------------------------------------------------------------------- | --------------- |
+| Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement. | 135,00 CAD      |
 
- **Équipement fourni par l'école pour l'installation immersive Vizua** 
- 
-| **Équipement**                          | **Description**                                                                         |
-|----------------------------------------|-----------------------------------------------------------------------------------------|
-| Haut-parleurs surround x4              | Système de son surround pour une expérience immersive complète.                         |
-| Console de son                         | Console permettant de gérer et diriger le son vers les haut-parleurs.                   |
-| Écran (Moniteur)                       | Écran pour afficher la vue en VR pour les spectateurs.                                  |
-| Chariot avec roulette                  | Chariot pour la mobilité de l'installation et pour héberger les équipements.            |
-| Câbles et connecteurs divers           | Câbles HDMI, USB, audio, alimentation et autres connecteurs nécessaires pour le montage.|
-| Support pour Casque VR (optionnel)     | Support pour ranger et organiser le casque VR de manière pratique.                      |
-| Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.   |
+**Équipement fourni par l'école pour l'installation immersive Vizua**
 
+| **Équipement**                        | **Description**                                                                          |
+| ------------------------------------- | ---------------------------------------------------------------------------------------- | ---------- |
+| Haut-parleurs surround x4             | Système de son surround pour une expérience immersive complète.                          |
+| Console de son                        | Console permettant de gérer et diriger le son vers les haut-parleurs.                    |
+| Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   |
+| Chariot avec roulette                 | Chariot pour la mobilité de l'installation et pour héberger les équipements.             |
+| Câbles et connecteurs divers          | Câbles HDMI, USB, audio, alimentation et autres connecteurs nécessaires pour le montage. |
+| Support pour Casque VR (optionnel)    | Support pour ranger et organiser le casque VR de manière pratique.                       |
+| Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.    |
+| Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   | 270,00 CAD |
 
 ---
 
