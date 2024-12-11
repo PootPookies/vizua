@@ -36,6 +36,29 @@ graph TD
     D -->|Continue à jouer| C
 
 ```
+## Gestion d'équipe 
+``` mermaid
+graph TD
+    A[Chef de projet (Ikrame Rata)] -->|Coordination & Gestion| B[Designer (Jeremy Duverseau)]
+    A -->|Coordination & Tests Utilisateurs| C[Développeur (Vincent Deslile)]
+    A -->|Planification & Suivi de projet| D[Équipe]
+
+    B -->|Création visuelle| E[Design des éléments 3D et animations]
+    B -->|Création visuelle| F[Environnement VR]
+
+    C -->|Intégration MIDI| G[Configuration MIDI (PureData/PlugData)]
+    C -->|Test et intégration audio| H[Synchro audio et visuel (DAW, MIDI)]
+    C -->|Tests techniques| I[Tests du matériel et de l'intégration]
+    
+    D -->|Planification| J[Suivi du budget et sourcing matériel]
+    D -->|Tests & Feedback| K[Tests utilisateurs et ajustements]
+
+    A -->|Documentation| L[Création du scénario interactif]
+    A -->|Documentation| M[Présentation du projet et rapport final]
+```
+
+
+
 
 ---
 
