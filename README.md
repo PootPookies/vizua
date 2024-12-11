@@ -187,7 +187,7 @@ Assure une alimentation stable.
 
 #### Résumé du Flux
 
-**Clavier MIDI ➔ DAW ➔ Analyse par PyTorch ➔ Transmission OSC/WebSocket ➔ TouchDesigner ➔ Rendu VR (OpenVR).**
+**Clavier MIDI ➔ DAW  ➔ Transmission OSC/WebSocket ➔ TouchDesigner ➔ Rendu VR (OpenVR).**
 
 **Interaction utilisateur (contrôleurs) ➔ TouchDesigner ➔ Feedback en temps réel.**
 
