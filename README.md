@@ -54,7 +54,7 @@ graph TD
 | Câbles et connecteurs divers          | Câbles HDMI, USB, audio, alimentation et autres connecteurs nécessaires pour le montage. |
 | Support pour Casque VR (optionnel)    | Support pour ranger et organiser le casque VR de manière pratique.                       |
 | Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.    |
-| Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   | 270,00 CAD |
+| Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   |
 
 ---
 
