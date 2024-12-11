@@ -38,14 +38,12 @@ graph TD
 ## Devis
 
 | Devis pour l'installation immersive Vizua |
-|-------------------------------------------|
 | **Équipement**                          | **Description**                                                                             | **Prix estimé**    |
 |----------------------------------------|---------------------------------------------------------------------------------------------|--------------------|
 | Écran (Moniteur)                       | Écran pour afficher la vue en VR pour les spectateurs.                                      | 270,00 CAD         |
 | Matériel pour l'installation physique  | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.        | 135,00 CAD         |
 
 | **Équipement fourni par l'école pour l'installation immersive Vizua** |
-|---------------------------------------------------------------------|
 | **Équipement**                          | **Description**                                                                         |
 |----------------------------------------|-----------------------------------------------------------------------------------------|
 | Haut-parleurs surround x4              | Système de son surround pour une expérience immersive complète.                         |
