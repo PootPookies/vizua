@@ -25,20 +25,19 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 ```mermaid
 graph TD
-    %% Début de l'expérience utilisateur en VR
-    A[L'utilisateur met le casque VR et entre dans l'espace immersif] --> B[Choix d'un preset sonore]
+    %% Début de l'expérience utilisateur
+    A[L'utilisateur met le casque VR] --> B[Immersion dans un espace visuel lié à la musique]
 
-    %% Immersion sonore et visuelle
-    B -->|Preset activé| C[Immersion dans un environnement sonore et visuel]
-    C --> D[Interaction avec l'environnement en utilisant des contrôleurs ou ses mouvements]
+    %% Choix de preset sonore
+    B --> C[Choix d'un preset sonore via un menu flottant]
+    C -->|Preset activé| D[Activation du visuel correspondant au preset]
 
-    %% Interaction évolutive
-    D -->|Les gestes modifient| E[Évolution des sons et des visuels]
-    E -->|Découverte et exploration| F[Immersion amplifiée par la réponse en temps réel]
+    %% Interaction principale
+    D --> E[L'utilisateur joue des notes sur un clavier physique]
+    E -->|Chaque note jouée| F[Les sons et visuels réagissent en synchronisation]
 
-    %% Boucle d'exploration immersive
-    F -->|Adaptation continue| D
-
+    %% Boucle immersive
+    F -->|Continue à jouer| E
 ```
 
 ---
