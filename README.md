@@ -151,7 +151,6 @@ Assure une alimentation stable.
 ---
 
 ### Description de la synoptique
-
 #### Entrée
 
 - **Clavier MIDI** : Envoie des signaux MIDI au DAW.
@@ -203,3 +202,31 @@ Assure une alimentation stable.
 | MIDI Monitor (macOS) ou MIDI-OX (Windows)    | Visualise les signaux MIDI pour vérifier la configuration et détecter les erreurs.               |
 | Virtual Audio Cable (ou équivalent)          | Permet de router l’audio entre différents logiciels si nécessaire.                               |
 | Soundflower (macOS) ou Voicemeeter (Windows) | Gère les flux audio pour un monitoring précis et avancé.                                         |
+---
+
+## Produit Minimum Viable
+
+### Interactivité
+
+L’interacteur doit être en mesure d’entendre les notes qu’il joue au clavier et de voir un visuel apparaître dans le casque.
+
+### Visuel
+
+Afin que le visuel soit intéressant, il doit au moins y avoir des animations cohérentes et en lien avec les sons joués par l’interacteur.
+
+### Matériel
+
+Le matériel suivant est nécessaire pour que l’installation soit au minimum viable :
+
+1. Casque de réalité virtuelle
+2. Haut-parleurs stéréo
+3. Clavier MIDI
+4. Ordinateur avec les bons requis logiciels
+5. Câblage requis
+
+### Sonore
+
+L’interacteur doit être en mesure d’entendre les sons qu’il joue à partir du clavier MIDI.
+
+
+
