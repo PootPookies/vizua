@@ -151,7 +151,7 @@ Assure une alimentation stable.
 
 ### Schéma
 
-<img width="1123" alt="mermaid" src="https://github.com/user-attachments/assets/c9f545fd-83d7-4427-95d6-e34df8259d4b">
+<img width="1123" alt="mermaid" src="https://github.com/user-attachments/assets/c9f545fd-83d7-4427-95d6-e34df8259d4b"  alt="Schema Interactif">
 
 ---
 
@@ -264,9 +264,9 @@ L’interacteur doit être en mesure d’entendre les sons qu’il joue à parti
 **Priorité : Faible**  
 **Solution** : Fournir des indications visuelles ou sonores intuitives pour guider l’utilisateur.
 
-![risques](https://github.com/user-attachments/assets/fa78ba27-3acf-4deb-bebc-2ea8f9f2efd4)
+<img width="1710" src="https://github.com/user-attachments/assets/fa78ba27-3acf-4deb-bebc-2ea8f9f2efd4"  alt="Risques">
 
-![matrice_risques](https://github.com/user-attachments/assets/40cac427-1336-4d6e-8c84-d6e71b1b11d3)
+<img width="1710" src="https://github.com/user-attachments/assets/40cac427-1336-4d6e-8c84-d6e71b1b11d3" alt="Risques diagramme">
 
 ---
 
