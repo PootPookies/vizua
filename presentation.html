@@ -32,7 +32,7 @@
   <!-- Présentation Reveal.js -->
   <div class="reveal">
     <div class="slides">
-      <!-- Diapositive 1 : Page titre -->
+      <!-- Diapositive 1 : Concept -->
       <section data-auto-animate data-auto-animate-unmatched="fade">
         <h2>Vizua - Visualiseur Musical</h2>
         <img src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e"
@@ -43,8 +43,8 @@
         <h4>Remise: 11 décembre 2024</h4>
       </section>
 
-      <!-- Diapositive 2 : Introduction -  paragraphe de présentation du projet-->
-      <section data-auto-animate data-auto-animate-unmatched="fade">
+      <!-- Diapositive 2 : Concept-->
+      <section data-auto-animate>
         <h2>Vizua</h2>
         <p>
           L'expérience est une installation immersive où l'utilisateur joue sur un clavier
@@ -56,7 +56,18 @@
           alt="Capture d'écran de l'expérience">
       </section>
 
-      <!-- Diapositive 3 :Introduction - Inspiration -->
+      <!-- Diapositive 3 : Objectif-->
+      <section data-auto-animate>
+        <h2>Objectif</h2>
+        <p>
+          Le but de notre projet est de créer une expérience immersive qui permet aux utilisateurs de vivre la
+          synesthésie, où les sens se mélangent. Nous souhaitons mettre en avant l'importance du son dans l'expérience
+          visuelle et comment ils interagissent pour influencer la perception des images et des émotions.
+        </p>
+      </section>
+
+
+      <!-- Diapositive 4: Inspiration -->
       <section data-auto-animate>
         <h2>Inspiration</h2>
         <p>
@@ -74,24 +85,86 @@
         </ul>
       </section>
 
-      <!-- Slide 4: Scénario interactif -->
+      <!-- Diapositive 6: Moodboard-->
       <section>
         <section data-auto-animate data-auto-animate-unmatched="fade">
-          <h2>Scénario Intéractif</h2>
-          <img href="https://github.com/user-attachments/assets/8c6d00b4-db89-41f6-b4a0-23018423e6c2">
+          <h2>Moodboard</h2>
+          <img src="https://github.com/user-attachments/assets/e66e0001-dc04-472f-a116-b22a92569dc7">
+        </section>
+
+        <!-- Diapositive 7: Palette sonore-->
+        <section>
+          <section data-auto-animate data-auto-animate-unmatched="fade">
+            <h2>Palette sonore</h2>
+            <li>
+              <a href="https://www.youtube.com/watch?v=6JeZR13dLLI" target="_blank">Écouter la palette sonore</a>
+            </li>
+          </section>
         </section>
 
 
+
+        <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!-- Diapositive 8 : Scénario interactif  -->
+
+        <section>
+          <section data-auto-animate data-auto-animate-unmatched="fade">
+            <h1>Produit minimum viable</h1>
+          </section>
+        </section>
 
         <!-- Diapositive 4 : Introduction - Produit minimum viable  -->
         <section data-auto-animate>
-          <h1>Produit minimum viable</h1>
+
+          <h4>
+            <strong>Interactivité</strong>
+          </h4>
+          <p>
+            L’interacteur doit être en mesure d’entendre les notes qu’il joue au clavier et de voir un visuel
+            apparaitre
+            dans le casque.
+          </p>
         </section>
+        <!-- Diapositive 6 : Introduction - Produit minimum viable  -->
+        <section data-auto-animate>
+          <h4>
+            <strong>Visuel</strong>
+          </h4>
+          <p>Afin que le visuel soit intéressant, il doit au moins y avoir des animations cohérentes et en lien avec
+            les
+            sons joués par l’interacteur. </p>
+        </section>
+        <!-- Diapositive 7 : Introduction - Produit minimum viable  -->
+        <section data-auto-animate>
+          <h4>
+            <strong>Matériel</strong>
+          </h4>
+          <p>Le matériel suivant est nécessaire pour que l’installation soit au minimum viable : </p>
+          <ul>
+            <li>1 Casque de réalité virtuel</li>
+            <li>2 Haut-parleurs Stéréo </li>
+            <li>Clavier MIDI </li>
+            <li>Console de son</li>
+            <li>Ordinateur avec les bons requis logiciel </li>
+            <li>Clavier MIDI </li>
+            <li>Câblage requis </li>
+          </ul>
+        </section>
+
+
+
 
         <!-- Slide 5: Devis -->
         <section data-auto-animate>
           <h2>Devis</h2>
+        </section>
+
+        <section data-auto-animate>
           <h3>Devis pour l'installation immersive Vizua</h3>
+        </section>
+
+        <section data-auto-animate>
           <table>
             <thead>
               <tr>
@@ -112,6 +185,9 @@
 
         <section data-auto-animate>
           <h3>Équipement fourni par l'école</h3>
+        </section>
+
+        <section data-auto-animate>
           <table>
             <thead>
               <tr>
@@ -133,11 +209,13 @@
         </section>
 
 
+
         <!-- Slide 6: Composantes -->
         <section data-auto-animate="">
           <h2>Composantes</h2>
           <h3>Clavier MIDI</h3>
-          <p>C’est l’interface principale pour l’utilisateur. Il permet de jouer des notes et des accords qui génèrent à
+          <p>C’est l’interface principale pour l’utilisateur. Il permet de jouer des notes et des accords qui génèrent
+            à
             la fois des sons (via le DAW) et des animations visuelles (via PlugData/PureData et TouchDesigner).</p>
           <h3>Haut-parleurs</h3>
           <p>Ils diffusent le son produit par le DAW pour créer une expérience immersive.</p>
@@ -149,7 +227,8 @@
           <h2>Synoptique</h2>
           <img width="1123" alt="mermaid"
             src="https://github.com/user-attachments/assets/c9f545fd-83d7-4427-95d6-e34df8259d4b">
-          <p><strong>Entrée :</strong> Le clavier MIDI envoie des signaux MIDI au DAW, qui les traite et les transmet à
+          <p><strong>Entrée :</strong> Le clavier MIDI envoie des signaux MIDI au DAW, qui les traite et les transmet
+            à
             TouchDesigner pour la création visuelle.</p>
         </section>
 
@@ -248,40 +327,6 @@
 
 
 
-        <!-- Diapositive 5 : Introduction - Produit minimum viable  -->
-        <section data-auto-animate>
-          <h4>
-            <strong>Interactivité</strong>
-          </h4>
-          <p>
-            L’interacteur doit être en mesure d’entendre les notes qu’il joue au clavier et de voir un visuel apparaitre dans le casque. 
-          </p>
-        </section>
-        <!-- Diapositive 6 : Introduction - Produit minimum viable  -->
-        <section data-auto-animate>
-          <h4>
-            <strong>Visuel</strong>
-          </h4>
-          <p>Afin que le visuel soit intéressant, il doit au moins y avoir des animations cohérentes et en lien avec les sons joués par l’interacteur. </p>
-        </section>
-        <!-- Diapositive 7 : Introduction - Produit minimum viable  -->
-        <section data-auto-animate>
-          <h4>
-            <strong>Matériel</strong>
-          </h4>
-          <p>Le matériel suivant est nécessaire pour que l’installation soit au minimum viable : </p>
-          <ul>
-            <li>1 Casque de réalité virtuel</li>
-            <li>2 Haut-parleurs Stéréo </li>
-            <li>Clavier MIDI </li>
-            <li>Console de son</li>
-            <li>Ordinateur avec les bons requis logiciel </li>
-            <li>Clavier MIDI </li>
-            <li>Câblage requis </li>
-          </ul>
-        </section>
-
-
 
         <!-- Diapositive 8 : Introduction - Produit minimum viable  -->
         <section data-auto-animate>
@@ -302,23 +347,76 @@
           <h1>Matrice de risques</h1>
         </section>
 
-        <!-- Diapositive 11 : Matrice de risques  -->
+        <!-- Diapositive 11 : Matrice de risques -->
         <section data-auto-animate>
-          <p><strong>R1: </strong>Les animations visuelles pourraient souffrir de ralentissements ou de latence lors de l’interaction avec le clavier MIDI. (Priorité : Élevée) 
-            Solution : Optimiser les performances dans TouchDesigner et effectuer des tests rigoureux pour pour garantir une fluidité dans le traitement des données MIDI et l'affichage des visuels en temps réel.</p>
-          <p><strong>R2: </strong>Les haut-parleurs risquent de produire des décalages sonores ou des distorsions pendant les tests interactifs. (Priorité : Moyenne) 
-            Solution : Effectuer des tests de calibrage audio et ajuster les présets sonores avant l’intégration finale.</strong></p>
-          <p><strong>R3: </strong>Le casque VR pourrait provoquer des problèmes de compatibilité ou d’affichage non prévus. (Priorité : Élevée) 
-            Solution : Tester le matériel sur plusieurs systèmes et configurations d’ordinateur pour identifier les problèmes potentiels.</strong></p>
-          <p><strong>R4: </strong>Risque de perte de synchronisation entre les éléments visuels et sonores lors de changements dynamiques. (Priorité : Élevée) 
-            Solution : Améliorer la gestion des événements temps réel dans le moteur graphique et audio.</strong></p>
-          <p><strong>R5: </strong>Le clavier MIDI pourrait manquer de sensibilité ou ne pas capter certaines nuances de jeu. (Priorité : Moyenne) 
-            Solution : Configurer les capteurs et vérifier leur calibration pour s’adapter à une large plage d’expressivité. </strong></p>
-          <p><strong>R6: </strong>Les variations de dynamique ou de rythme pourraient provoquer des bugs ou ralentir les évolutions visuelles. (Priorité : Moyenne) 
-            Solution : Tester les différents cas de variations rythmiques pour évaluer leur impact sur les visuels. </strong></p>
-          <p><strong>Les utilisateurs pourraient éprouver des difficultés à comprendre les interactions possibles dans l’espace immersif. (Priorité : Faible) 
-            Solution : Fournir des indications visuelles ou sonores intuitives pour guider l’utilisateur. </strong></p>
+          <p><strong>R1: </strong>Les animations visuelles pourraient souffrir de ralentissements ou de latence lors
+            de l’interaction avec le clavier MIDI. (Priorité : Élevée)</p>
         </section>
+
+        <section data-auto-animate>
+          <p>Solution : Optimiser les performances dans TouchDesigner et effectuer des tests rigoureux pour garantir
+            une fluidité dans le traitement des données MIDI et l'affichage des visuels en temps réel.</p>
+        </section>
+
+        <section data-auto-animate>
+          <p><strong>R2: </strong>Les haut-parleurs risquent de produire des décalages sonores ou des distorsions
+            pendant
+            les tests interactifs. (Priorité : Moyenne)</p>
+        </section>
+
+        <section data-auto-animate>
+          <p>Solution : Effectuer des tests de calibrage audio et ajuster les présets sonores avant l’intégration
+            finale.</p>
+        </section>
+
+        <section data-auto-animate>
+          <p><strong>R3: </strong>Le casque VR pourrait provoquer des problèmes de compatibilité ou d’affichage non
+            prévus.
+            (Priorité : Élevée)</p>
+        </section>
+
+        <section data-auto-animate>
+          <p>Solution : Tester le matériel sur plusieurs systèmes et configurations d’ordinateur pour identifier les
+            problèmes potentiels.</p>
+        </section>
+
+        <section data-auto-animate>
+          <p><strong>R4: </strong>Risque de perte de synchronisation entre les éléments visuels et sonores lors de
+            changements dynamiques. (Priorité : Élevée)</p>
+        </section>
+
+        <section data-auto-animate>
+          <p>Solution : Améliorer la gestion des événements temps réel dans le moteur graphique et audio.</p>
+        </section>
+
+        <section data-auto-animate>
+          <p><strong>R5: </strong>Le clavier MIDI pourrait manquer de sensibilité ou ne pas capter certaines nuances de
+            jeu. (Priorité : Moyenne)</p>
+        </section>
+
+        <section data-auto-animate>
+          <p>Solution : Configurer les capteurs et vérifier leur calibration pour s’adapter à une large plage
+            d’expressivité.</p>
+        </section>
+
+        <section data-auto-animate>
+          <p><strong>R6: </strong>Les variations de dynamique ou de rythme pourraient provoquer des bugs ou ralentir les
+            évolutions visuelles. (Priorité : Moyenne)</p>
+        </section>
+
+        <section data-auto-animate>
+          <p>Solution : Tester les différents cas de variations rythmiques pour évaluer leur impact sur les visuels.</p>
+        </section>
+
+        <section data-auto-animate>
+          <p><strong>Les utilisateurs pourraient éprouver des difficultés à comprendre les interactions possibles dans
+              l’espace immersif. (Priorité : Faible)</p>
+        </section>
+
+        <section data-auto-animate>
+          <p>Solution : Fournir des indications visuelles ou sonores intuitives pour guider l’utilisateur.</p>
+        </section>
+
 
         <!-- Diapositive 10 : Matrice de risques (schéma de la matrice)  -->
         <section data-auto-animate>
@@ -327,63 +425,24 @@
 
         <!-- Diapositive 11 : Matrice de risques (Stratégie écrite face au différents risques)  -->
         <section data-auto-animate>
-          <p>Dans les premières semaines, des tests approfondis seront effectués pour vérifier la synchronisation des éléments visuels et sonores (R1, R4). Ces tests incluront des scénarios où l’interaction est intense afin de garantir la stabilité du système.</p>
-          <p>Pour le risque lié à l’équipement (R3, R5), une vérification rigoureuse des calibrages sera réalisée avant chaque phase de test. Les données obtenues lors des tests serviront à ajuster les paramètres pour minimiser les erreurs. </p>
-          <p>Concernant les problèmes d’expérience utilisateur (R7), une première phase d’essais utilisateurs sera organisée pour recueillir des retours. Les ajustements nécessaires seront effectués en fonction des observations recueillies. </p>
-          <p>Pour éviter tout blocage majeur, l’équipe se concentrera sur les risques critiques (Élevés) dans les premières étapes du projet. Ce travail préliminaire assurera une base technique solide avant l’intégration complète des fonctionnalités interactives. </p>
+          <p>Dans les premières semaines, des tests approfondis seront effectués pour vérifier la synchronisation des
+            éléments visuels et sonores (R1, R4). Ces tests incluront des scénarios où l’interaction est intense afin
+            de
+            garantir la stabilité du système.</p>
+          <p>Pour le risque lié à l’équipement (R3, R5), une vérification rigoureuse des calibrages sera réalisée
+            avant
+            chaque phase de test. Les données obtenues lors des tests serviront à ajuster les paramètres pour
+            minimiser
+            les erreurs. </p>
+          <p>Concernant les problèmes d’expérience utilisateur (R7), une première phase d’essais utilisateurs sera
+            organisée pour recueillir des retours. Les ajustements nécessaires seront effectués en fonction des
+            observations recueillies. </p>
+          <p>Pour éviter tout blocage majeur, l’équipe se concentrera sur les risques critiques (Élevés) dans les
+            premières étapes du projet. Ce travail préliminaire assurera une base technique solide avant l’intégration
+            complète des fonctionnalités interactives. </p>
         </section>
 
-        <!-- Diapositive 12 : Test à réaliser  -->
-        <section data-auto-animate>
-          <h1>Test à réaliser</h1>
-        </section>
 
-        <!-- Diapositive 13 : Test à réaliser -->
-        <section data-auto-animate>
-          <h3>Scénario 1</h3>
-          <table style="font-size: 20px;">
-            <tr>
-              <th><em>Scénario 1</em></th>
-              <td>...</td>
-            </tr>
-            <tr>
-              <th>Identification</th>
-              <td>...</td>
-            </tr>
-            <tr>
-              <th>Priorité</th>
-              <td>...</td>
-            </tr>
-            <tr>
-              <th>Date limite</th>
-              <td>...</td>
-            </tr>
-            <tr>
-              <th>Description</th>
-              <td>...</td>
-            </tr>
-            <tr>
-              <th>Contraintes</th>
-              <td>...</td>
-            </tr>
-            <tr>
-              <th>Dépendances</th>
-              <td>...</td>
-            </tr>
-            <tr>
-              <th>Procédure de test</th>
-              <td>
-                <strong>Données d'entrée:</strong> ... <br>
-                <strong>Résultats attendu:</strong> ... <br>
-                <strong>Critères de validation:</strong> ...
-              </td>
-            </tr>
-            <tr>
-              <th>Résultat</th>
-              <td>...</td>
-            </tr>
-          </table>
-        </section>
 
         <!-- Diapositive 14 : Test à réaliser -->
         <section data-auto-animate>
