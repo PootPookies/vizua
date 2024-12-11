@@ -28,8 +28,7 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 ## Scénario interactif
 
-<img height="500px" src="https://github.com/user-attachments/assets/8c6d00b4-db89-41f6-b4a0-23018423e6c2" alt="Interaction"
->
+<img height="500px" src="https://github.com/user-attachments/assets/8c6d00b4-db89-41f6-b4a0-23018423e6c2" alt="Interaction">
 ## Gestion d'équipe 
 
 ![diagramme_taches](https://github.com/user-attachments/assets/50cee5a7-040e-40d2-9885-c0ad2a641291)
