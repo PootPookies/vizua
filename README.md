@@ -22,35 +22,29 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 ## Scénario interactif
 
 ```mermaid
-flowchart TD
-    n5["début"] -- choix --> n4["Mode performance"] & n3["Mode libre"]
-    n4 --> n6["Début chrono 60s"]
-    n3 --> n7["Manipulation de clavier"]
-    n6 --> n8["Manipulation de clavier"]
-    n7 --> n9["Visuel ondes jouées"]
-    n8 --> n10["Visuel ondes jouées"]
-    n9 --> n11["terminer"]
-    n10 --> n12["fin chrono"]
-    n11 --> n14["retourner aux choix"]
-    n11 -- retour mode de sélection --> n5
-    n12 --> n15["terminer"] & n16["recommencer"]
-    n16 --> n6
-    n15 --> n17["écouter performance"] & n14
-    n14 -- moins de 2min --> n5
-    n17 --> n16
+graph TD
+    A[Clavier MIDI] -->|Signaux MIDI| B[DAW]
+    B -->|MIDI/Audio| C[PlugData / PureData]
+    C -->|Données OSC ou MIDI| D[TouchDesigner]
+    D -->|Visualisation| E[Casque VR]
+    D -->|Son traité| F[Haut-parleurs]
+
 ```
 
 ## Devis
 
 ### Location / emprunt
 
-- Caque VR (oculus)
-- Ordinateur (Étant capable de supporter les requis logiciel)
-- Haut-Parleur Surround x4
-- Console de son
-- Clavier MIDI
-- Chariot avec roulette pour la mobilité de l'installation
-- Écran (moniteur) pour l'affichage de la vue en VR
+- 🎹 Clavier MIDI
+- 🎛️ Console audio (facultative si tout est géré par l'ordinateur).
+- 🔊 Haut-parleurs (minimum 4 pour un son surround).
+- 💻 Ordinateur
+- 🥽 Casque VR
+- 🖥️ Moniteur externe (pour le public).
+- 🖥️ DAW: Ableton Live ou Logic Pro.
+- 🔧 PlugData ou PureData : Traitement MIDI/audio.
+- 🌀 TouchDesigner : Visualisations interactives.
+- 🔗 Oculus Software : Gestion du casque VR.
 
 ## Plantation
 
@@ -158,19 +152,6 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 | DAW (Ableton/Logic) | Capture, modifie et traite les signaux MIDI/audio pour enrichir l'expérience sonore.            |
 | OpenVR              | Permet l'intégration et le rendu stéréoscopique de la scène VR et gère le suivi des mouvements. |
 | Oculus Software     | Établit la connexion et le suivi du casque Oculus avec le PC pour une immersion VR optimale.    |
-
-## Intégration optionelle
-
-### Analyse du son par l'intelligence artificielle (AI)
-
-Cette intégration au projet permettrait une analyse sonore plus approfondie et poussée grâce à l'utilisation de frameworks d'intelligence artificielle. Des outils comme PyTorch seraient utilisés pour créer ou adapter des frameworks existants. Les données résultant de cette analyse seraient transmises via des protocoles de communication tels qu'OSC ou WebSocket vers TouchDesigner. Cette approche donnerait naissance à des visuels plus uniques et captivants.
-
-#### Analyse AI
-
-- **Framework PyTorch** :
-  - Reçoit le signal audio/MIDI modifié du DAW.
-  - Analyse le son (détection de motifs, classification d'émotions).
-  - Envoie les résultats d'analyse à TouchDesigner via OSC/WebSocket.
 
 #### Communication
 
