@@ -52,7 +52,7 @@ graph TD
 | Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   |
 | Chariot avec roulette                 | Chariot pour la mobilité de l'installation et pour héberger les équipements.             |
 | Câbles et connecteurs divers          | Câbles HDMI, USB, audio, alimentation et autres connecteurs nécessaires pour le montage. |
-| Support pour Casque VR (optionnel)    | Support pour ranger et organiser le casque VR de manière pratique.                       |
+| Support pour Casque VR                | Support pour ranger et organiser le casque VR de manière pratique.                       |
 | Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.    |
 
 
