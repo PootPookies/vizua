@@ -7,6 +7,7 @@
 L'expérience est une installation immersive où l'utilisateur joue sur un clavier MIDI et voit des visuels dynamiques se déployer autour de lui en réalité virtuelle. Chaque note déclenche des animations spectaculaires qui réagissent en temps réel, créant un spectacle audiovisuel captivant et interactif.
 
 <!-- <img width="1710" alt="Screenshot 2024-11-04 at 3 59 05 PM" src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e"> -->
+
 ![vizua](https://github.com/user-attachments/assets/8b64af8a-739f-4319-8b70-d7ac6e8ca225)
 
 ### Inspiration
@@ -32,7 +33,30 @@ graph TD
 
 ```
 
+---
+
 ## Devis
+
+| Devis pour l'installation immersive Vizua |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------ |
+| **Équipement**                            | **Description**                                                                               | **Prix estimé**    |
+| ----------------------------------------  | --------------------------------------------------------------------------------------------- | ------------------ |
+| Écran (Moniteur)                          | Écran pour afficher la vue en VR pour les spectateurs.                                        | 270,00 CAD         |
+| Matériel pour l'installation physique     | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.         | 135,00 CAD         |
+
+| Équipement fourni par l'école pour l'installation immersive Vizua |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Équipement**                                                    | **Description**                                                                               |
+| ----------------------------------------                          | --------------------------------------------------------------------------------------------- |
+| Haut-parleurs surround x4                                         | Système de son surround pour une expérience immersive complète.                               |
+| Console de son                                                    | Console permettant de gérer et diriger le son vers les haut-parleurs.                         |
+| Écran (Moniteur)                                                  | Écran pour afficher la vue en VR pour les spectateurs.                                        |
+| Chariot avec roulette                                             | Chariot pour la mobilité de l'installation et pour héberger les équipements.                  |
+| Câbles et connecteurs divers                                      | Câbles HDMI, USB, audio, alimentation et autres connecteurs nécessaires pour le montage.      |
+| Support pour Casque VR (optionnel)                                | Support pour ranger et organiser le casque VR de manière pratique.                            |
+| Matériel pour l'installation physique                             | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.         |
+
+---
 
 ### Location / emprunt
 
@@ -62,6 +86,8 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 #### Vue de dessus
 
 ![Desktop - 4](https://github.com/user-attachments/assets/6cbf4efd-efd2-457d-ad18-af37fd2828d1)
+
+---
 
 ## Composantes
 
@@ -115,11 +141,15 @@ Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela pe
 Connecte toutes les composantes entre elles (clavier, casque, haut-parleurs).
 Assure une alimentation stable.
 
+---
+
 ## Synoptique
 
 ### Schéma
 
 <img width="1123" alt="mermaid" src="https://github.com/user-attachments/assets/c9f545fd-83d7-4427-95d6-e34df8259d4b">
+
+---
 
 ### Description de la synoptique
 
