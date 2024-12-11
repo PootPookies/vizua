@@ -266,7 +266,7 @@ L’interacteur doit être en mesure d’entendre les sons qu’il joue à parti
 
 <img width="500px" src="https://github.com/user-attachments/assets/fa78ba27-3acf-4deb-bebc-2ea8f9f2efd4"  alt="Risques">
 
-<img width="500px" src="https://github.com/user-attachments/assets/40cac427-1336-4d6e-8c84-d6e71b1b11d3" alt="Risques diagramme">
+<img width="1000px" src="https://github.com/user-attachments/assets/40cac427-1336-4d6e-8c84-d6e71b1b11d3" alt="Risques diagramme">
 
 ---
 
