@@ -25,12 +25,17 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 ```mermaid
 graph TD
-    A[Clavier MIDI] -->|Signaux MIDI| B[DAW]
-    B -->|MIDI/Audio| C[PlugData / PureData]
-    C -->|Données OSC ou MIDI| D[TouchDesigner]
-    D -->|Visualisation| E[Casque VR]
-    D -->|Son traité| F[Haut-parleurs]
+    %% Début de l'expérience utilisateur
+    A[L'utilisateur entre dans l'espace immersif] --> B[Choix d'un instrument ou d'un son]
 
+    %% Interaction utilisateur
+    B -->|Joue sur un clavier ou interagit avec des contrôleurs VR| C[Création de sons en temps réel]
+    C --> D[Visualisation des sons autour de lui/elle en VR]
+    D -->|Explore et interagit| E[Transformation des visuels avec les mouvements]
+
+    %% Boucle d'immersion
+    E -->|Explore davantage| F[Sensations sonores amplifiées]
+    F -->|Adapte sa façon de jouer| C
 ```
 
 ---
