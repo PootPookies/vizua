@@ -25,13 +25,25 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 ```mermaid
 graph TD
-    A[Clavier MIDI] -->|Signaux MIDI| B[DAW]
-    B -->|MIDI/Audio| C[PlugData / PureData]
-    C -->|Données OSC ou MIDI| D[TouchDesigner]
-    D -->|Visualisation| E[Casque VR]
-    D -->|Son traité| F[Haut-parleurs]
+    %% Début de l'expérience utilisateur
+    A[L'utilisateur met le casque VR] --> B[Immersion dans un espace visuel correspondant au preset sonore choisi]
+
+    %% Interaction principale
+    B --> C[L'utilisateur joue des notes sur un clavier physique]
+    C -->|Chaque note jouée| D[Les sons et visuels réagissent en synchronisation]
+
+    %% Boucle immersive
+    D -->|Continue à jouer| C
 
 ```
+## Gestion d'équipe 
+
+![diagramme_taches](https://github.com/user-attachments/assets/50cee5a7-040e-40d2-9885-c0ad2a641291)
+
+## Échéancier
+
+<img width="1127" alt="planification_temps" src="https://github.com/user-attachments/assets/cea34dab-4069-49c9-82e1-824088a112db" />
+
 
 ---
 
@@ -46,15 +58,15 @@ graph TD
 **Équipement fourni par l'école pour l'installation immersive Vizua**
 
 | **Équipement**                        | **Description**                                                                          |
-| ------------------------------------- | ---------------------------------------------------------------------------------------- | ---------- |
+| ------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Haut-parleurs surround x4             | Système de son surround pour une expérience immersive complète.                          |
 | Console de son                        | Console permettant de gérer et diriger le son vers les haut-parleurs.                    |
 | Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   |
 | Chariot avec roulette                 | Chariot pour la mobilité de l'installation et pour héberger les équipements.             |
 | Câbles et connecteurs divers          | Câbles HDMI, USB, audio, alimentation et autres connecteurs nécessaires pour le montage. |
-| Support pour Casque VR (optionnel)    | Support pour ranger et organiser le casque VR de manière pratique.                       |
+| Support pour Casque VR                | Support pour ranger et organiser le casque VR de manière pratique.                       |
 | Matériel pour l'installation physique | Supports et fixations pour maintenir l'équipement en place et faciliter l'agencement.    |
-| Écran (Moniteur)                      | Écran pour afficher la vue en VR pour les spectateurs.                                   | 270,00 CAD |
+
 
 ---
 
@@ -75,9 +87,9 @@ graph TD
 
 Comme le côté visuel de l'expérience se situe en réalité virtuelle, cela permet à l'installation d'être facilement déplacer.
 
-## Zone de plantation dans le studio
+## Zone de plantati
 
-![Gestion-1](https://github.com/user-attachments/assets/fd8d11cb-27ed-497b-9a73-a54c86aa4bec)
+![gestion_emplacement](https://github.com/user-attachments/assets/177daa44-8fdc-40c9-82bb-6dd5230f785f)
 
 #### Vue de coté
 
@@ -187,7 +199,7 @@ Assure une alimentation stable.
 
 #### Résumé du Flux
 
-**Clavier MIDI ➔ DAW ➔ Analyse par PyTorch ➔ Transmission OSC/WebSocket ➔ TouchDesigner ➔ Rendu VR (OpenVR).**
+**Clavier MIDI ➔ DAW  ➔ Transmission OSC/WebSocket ➔ TouchDesigner ➔ Rendu VR (OpenVR).**
 
 **Interaction utilisateur (contrôleurs) ➔ TouchDesigner ➔ Feedback en temps réel.**
 
@@ -205,25 +217,3 @@ Assure une alimentation stable.
 | Virtual Audio Cable (ou équivalent)          | Permet de router l’audio entre différents logiciels si nécessaire.                               |
 | Soundflower (macOS) ou Voicemeeter (Windows) | Gère les flux audio pour un monitoring précis et avancé.                                         |
 
-#### Communication
-
-```mermaid
-sequenceDiagram
-    participant MIDI as Clavier MIDI
-    participant DAW as DAW (Ableton/Logic)
-    participant PD as PlugData/PureData
-    participant TD as TouchDesigner
-    participant VR as OpenVR
-    participant Headset as Casque VR
-    participant Monitor as Moniteur
-    participant User as Utilisateur
-
-    MIDI->>DAW: Envoie signal MIDI
-    DAW->>PD: Transmet les données audio/MIDI
-    PD->>TD: Envoie les données pour créer des visuels
-    TD->>VR: Rendu stéréoscopique pour immersion
-    VR->>Headset: Transfert de l'image à l'utilisateur
-    Headset->>TD: Réception des interactions de l'utilisateur
-    TD->>Monitor: Affichage des visuels sur moniteur
-    TD->>User: Feedback visuel/haptique en temps réel
-```
