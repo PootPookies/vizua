@@ -1,351 +1,341 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vizua - Visualiseur Musical</title>
 
-    <!-- CSS de Reveal.js -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/solarized.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vizua - Visualiseur Musical</title>
 
-    <!-- Styles personnalisés -->
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-      }
+  <!-- CSS de Reveal.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" />
 
-      .reveal section {
-        text-align: center;
-        font-size: 1em;
-      }
+  <!-- Styles personnalisés -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
 
-      img {
-        width: 100%;
-        max-width: 600px;
-      }
-    </style>
-  </head>
+    .reveal section {
+      text-align: center;
+      font-size: 1em;
+    }
 
-  <body>
-    <!-- Présentation Reveal.js -->
-    <div class="reveal">
-      <div class="slides">
-        <!-- Diapositive 1 : Page titre -->
-        <section data-auto-animate data-auto-animate-unmatched="fade">
-          <h2>Vizua - Visualiseur Musical</h2>
-          <img
-          src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e"
-          alt="Capture d'écran de Vizua"
-          style="width: 700px; height: 300px;"
-        />
-          <h4>
-            Vincent Delisle - Ikrame Rata - Jérémy Duverseau
-          </h4>
-          <h4>Remise: 11 décembre 2024</h4>
-        </section>
+    img {
+      width: 100%;
+      max-width: 600px;
+    }
+  </style>
+</head>
 
-        <!-- Diapositive 2 : Introduction -  paragraphe de présentation du projet-->
-         <section data-auto-animate data-auto-animate-unmatched="fade">
-              <h2>Vizua</h2>
-              <p>
-                L'expérience est une installation immersive où l'utilisateur joue sur un clavier
-                MIDI et voit des visuels dynamiques se déployer autour de lui en réalité virtuelle.
-                Chaque note déclenche des animations spectaculaires qui réagissent en temps réel,
-                créant un spectacle audiovisuel captivant et interactif.
-              </p>
-          </section>
+<body>
+  <!-- Présentation Reveal.js -->
+  <div class="reveal">
+    <div class="slides">
+      <!-- Diapositive 1 : Page titre -->
+      <section data-auto-animate data-auto-animate-unmatched="fade">
+        <h2>Vizua - Visualiseur Musical</h2>
+        <img src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e"
+          alt="Capture d'écran de Vizua" style="width: 700px; height: 300px;" />
+        <h4>
+          Vincent Delisle - Ikrame Rata - Jérémy Duverseau
+        </h4>
+        <h4>Remise: 11 décembre 2024</h4>
+      </section>
 
-        <!-- Diapositive 3 :Introduction - Inspiration -->
-        <section data-auto-animate>
-          <h2>Inspiration</h2>
-          <p>
-            Le projet s'inspire des visualiseurs musicaux des années 2000, avec
-            une touche moderne grâce à l'intégration de la VR.
-          </p>
-          <ul>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2"
-                >Apple iTunes Classic Visualizer</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=tjI4dYWsFbM"
-                >Visualiseur musical Xbox 360</a
-              >
-            </li>
-          </ul>
-        </section>
+      <!-- Diapositive 2 : Introduction -  paragraphe de présentation du projet-->
+      <section data-auto-animate data-auto-animate-unmatched="fade">
+        <h2>Vizua</h2>
+        <p>
+          L'expérience est une installation immersive où l'utilisateur joue sur un clavier
+          MIDI et voit des visuels dynamiques se déployer autour de lui en réalité virtuelle.
+          Chaque note déclenche des animations spectaculaires qui réagissent en temps réel,
+          créant un spectacle audiovisuel captivant et interactif.
+        </p>
+      </section>
 
-        <!-- Diapositive 4 : Introduction - Produit minimum viable  -->
-        <section data-auto-animate>
-          <h1>Produit minimum viable</h1>
-        </section>
+      <!-- Diapositive 3 :Introduction - Inspiration -->
+      <section data-auto-animate>
+        <h2>Inspiration</h2>
+        <p>
+          Le projet s'inspire des visualiseurs musicaux des années 2000, avec
+          une touche moderne grâce à l'intégration de la VR.
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/watch?v=i4JbAm7awCc&list=PLPF1dVJ5LqyQi0A6NYr3UD-zhF91ySM_2&index=2">Apple
+              iTunes Classic Visualizer</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=tjI4dYWsFbM">Visualiseur musical Xbox 360</a>
+          </li>
+        </ul>
+      </section>
 
-          <!-- Diapositive 5 : Introduction - Produit minimum viable  -->
-          <section data-auto-animate>
-            <h4>
-              <strong>Interactivité</strong>
-            </h4>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-          </section>
-          <!-- Diapositive 6 : Introduction - Produit minimum viable  -->
-          <section data-auto-animate>
-            <h4>
-              <strong>Visuel</strong>
-            </h4>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-          </section>
-          <!-- Diapositive 7 : Introduction - Produit minimum viable  -->
-          <section data-auto-animate>
-            <h4>
-              <strong>Matériel</strong>
-            </h4>
-            <ul>
-              <li>Casque VR (Oculus)</li>
-              <li>Ordinateur (supports les exigences logicielles)</li>
-              <li>Haut-Parleurs Surround x4</li>
-              <li>Console de son</li>
-              <li>Clavier MIDI</li>
-              <li>Chariot avec roulette</li>
-              <li>Écran (moniteur) pour affichage VR</li>
-            </ul>
-          </section>
-          <!-- Diapositive 8 : Introduction - Produit minimum viable  -->
-          <section data-auto-animate>
-            <h4>
-              <strong>Sonore</strong>
-            </h4>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-          </section>
+      <!-- Diapositive 4 : Introduction - Produit minimum viable  -->
+      <section data-auto-animate>
+        <h1>Produit minimum viable</h1>
+      </section>
 
-        <!-- Diapositive 9 : Introduction -->
-        <section data-auto-animate>
-          <h4>Date de livraison des test: 1 février 2025</h4>
-          <a href="https://github.com/PootPookies/vizua">Répertoire projet</a>
-        </section>
+      <!-- Diapositive 5 : Introduction - Produit minimum viable  -->
+      <section data-auto-animate>
+        <h4>
+          <strong>Interactivité</strong>
+        </h4>
+        <ul>
+          <li>...</li>
+          <li>...</li>
+          <li>...</li>
+        </ul>
+      </section>
+      <!-- Diapositive 6 : Introduction - Produit minimum viable  -->
+      <section data-auto-animate>
+        <h4>
+          <strong>Visuel</strong>
+        </h4>
+        <ul>
+          <li>...</li>
+          <li>...</li>
+          <li>...</li>
+        </ul>
+      </section>
+      <!-- Diapositive 7 : Introduction - Produit minimum viable  -->
+      <section data-auto-animate>
+        <h4>
+          <strong>Matériel</strong>
+        </h4>
+        <ul>
+          <li>Casque VR (Oculus)</li>
+          <li>Ordinateur (supports les exigences logicielles)</li>
+          <li>Haut-Parleurs Surround x4</li>
+          <li>Console de son</li>
+          <li>Clavier MIDI</li>
+          <li>Chariot avec roulette</li>
+          <li>Écran (moniteur) pour affichage VR</li>
+        </ul>
+      </section>
+      <!-- Diapositive 8 : Introduction - Produit minimum viable  -->
+      <section data-auto-animate>
+        <h4>
+          <strong>Sonore</strong>
+        </h4>
+        <ul>
+          <li>...</li>
+          <li>...</li>
+          <li>...</li>
+        </ul>
+      </section>
 
-        <!-- Diapositive 10 : Matrice de risques  -->
-        <section data-auto-animate>
-          <h1>Matrice de risques</h1>
-        </section>
+      <!-- Diapositive 9 : Introduction -->
+      <section data-auto-animate>
+        <h4>Date de livraison des test: 1 février 2025</h4>
+        <a href="https://github.com/PootPookies/vizua">Répertoire projet</a>
+      </section>
 
-        <!-- Diapositive 11 : Matrice de risques  -->
-        <section data-auto-animate>
-          <p><strong>R1: </strong>...</p>
-          <p><strong>R2: </strong>...</strong></p>
-          <p><strong>R3: </strong>...</strong></p>
-          <p><strong>R4: </strong>...</strong></p>
-          <p><strong>R5: </strong>...</strong></p>
-          <p><strong>R6: </strong>...</strong></p>
-          <p><strong>...</strong></p>
-        </section>
+      <!-- Diapositive 10 : Matrice de risques  -->
+      <section data-auto-animate>
+        <h1>Matrice de risques</h1>
+      </section>
 
-        <!-- Diapositive 10 : Matrice de risques (schéma de la matrice)  -->
-        <section data-auto-animate>
-          <img src="" alt="Schéma matrice de risques" />
-        </section>
+      <!-- Diapositive 11 : Matrice de risques  -->
+      <section data-auto-animate>
+        <p><strong>R1: </strong>...</p>
+        <p><strong>R2: </strong>...</strong></p>
+        <p><strong>R3: </strong>...</strong></p>
+        <p><strong>R4: </strong>...</strong></p>
+        <p><strong>R5: </strong>...</strong></p>
+        <p><strong>R6: </strong>...</strong></p>
+        <p><strong>...</strong></p>
+      </section>
 
-        <!-- Diapositive 11 : Matrice de risques (Stratégie écrite face au différents risques)  -->
-        <section data-auto-animate>
-          <p>...</p>
-          <p>...</p>
-          <p>...</p>
-          <p>...</p>
-        </section>
+      <!-- Diapositive 10 : Matrice de risques (schéma de la matrice)  -->
+      <section data-auto-animate>
+        <img src="" alt="Schéma matrice de risques" />
+      </section>
 
-        <!-- Diapositive 12 : Test à réaliser  -->
-        <section data-auto-animate>
-            <h1>Test à réaliser</h1>
-        </section>
+      <!-- Diapositive 11 : Matrice de risques (Stratégie écrite face au différents risques)  -->
+      <section data-auto-animate>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+      </section>
 
-        <!-- Diapositive 13 : Test à réaliser -->
-        <section data-auto-animate>
-            <h3>Scénario 1</h3>
-            <table style="font-size: 20px;">
-                <tr>
-                    <th><em>Scénario 1</em></th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Identification</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Priorité</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Date limite</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Description</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Contraintes</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Dépendances</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Procédure de test</th>
-                    <td>
-                        <strong>Données d'entrée:</strong> ... <br>
-                        <strong>Résultats attendu:</strong> ... <br>
-                        <strong>Critères de validation:</strong> ...
-                    </td>
-                </tr>
-                <tr>
-                    <th>Résultat</th>
-                    <td>...</td>
-                </tr>
-            </table>
-        </section>
+      <!-- Diapositive 12 : Test à réaliser  -->
+      <section data-auto-animate>
+        <h1>Test à réaliser</h1>
+      </section>
 
-        <!-- Diapositive 14 : Test à réaliser -->
-        <section data-auto-animate>
-            <h3>Scénario 2</h3>
-            <table style="font-size: 20px;">
-                <tr>
-                    <th><em>Scénario 2</em></th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Identification</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Priorité</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Date limite</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Description</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Contraintes</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Dépendances</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Procédure de test</th>
-                    <td>
-                        <strong>Données d'entrée:</strong> ... <br>
-                        <strong>Résultats attendu:</strong> ... <br>
-                        <strong>Critères de validation:</strong> ...
-                    </td>
-                </tr>
-                <tr>
-                    <th>Résultat</th>
-                    <td>...</td>
-                </tr>
-            </table>
-        </section>
+      <!-- Diapositive 13 : Test à réaliser -->
+      <section data-auto-animate>
+        <h3>Scénario 1</h3>
+        <table style="font-size: 20px;">
+          <tr>
+            <th><em>Scénario 1</em></th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Identification</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Priorité</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Date limite</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Description</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Contraintes</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Dépendances</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Procédure de test</th>
+            <td>
+              <strong>Données d'entrée:</strong> ... <br>
+              <strong>Résultats attendu:</strong> ... <br>
+              <strong>Critères de validation:</strong> ...
+            </td>
+          </tr>
+          <tr>
+            <th>Résultat</th>
+            <td>...</td>
+          </tr>
+        </table>
+      </section>
 
-        <!-- Diapositive 15.. : Test à réaliser -->
-        <section data-auto-animate>
-            <h3>Scénario 3</h3>
-            <table style="font-size: 20px;">
-                <tr>
-                    <th><em>Scénario 3</em></th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Identification</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Priorité</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Date limite</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Description</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Contraintes</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Dépendances</th>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th>Procédure de test</th>
-                    <td>
-                        <strong>Données d'entrée:</strong> ... <br>
-                        <strong>Résultats attendu:</strong> ... <br>
-                        <strong>Critères de validation:</strong> ...
-                    </td>
-                </tr>
-                <tr>
-                    <th>Résultat</th>
-                    <td>...</td>
-                </tr>
-            </table>
-        </section>
+      <!-- Diapositive 14 : Test à réaliser -->
+      <section data-auto-animate>
+        <h3>Scénario 2</h3>
+        <table style="font-size: 20px;">
+          <tr>
+            <th><em>Scénario 2</em></th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Identification</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Priorité</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Date limite</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Description</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Contraintes</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Dépendances</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Procédure de test</th>
+            <td>
+              <strong>Données d'entrée:</strong> ... <br>
+              <strong>Résultats attendu:</strong> ... <br>
+              <strong>Critères de validation:</strong> ...
+            </td>
+          </tr>
+          <tr>
+            <th>Résultat</th>
+            <td>...</td>
+          </tr>
+        </table>
+      </section>
 
-          <!-- Diapositive 16 : Fiche d'anomalies (issues)  -->
-        <section data-auto-animate>
-          <h2>Fiche d'anomalies (issues)</h2>
-          <h4>*Voir Github</h4>
-        </section>
-        <!-- Diapositive 17 : Gestion de projet  -->
-        <section data-auto-animate>
-          <h2>Dans le README</h2>
-          <h4>s'assurer d'Avoir tous ça: <a href="https://tim-montmorency.com/582523-gestion/#/activites/5_concevoir/">Gestion de projet</a></h4>
-        </section>
-      </div>
+      <!-- Diapositive 15.. : Test à réaliser -->
+      <section data-auto-animate>
+        <h3>Scénario 3</h3>
+        <table style="font-size: 20px;">
+          <tr>
+            <th><em>Scénario 3</em></th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Identification</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Priorité</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Date limite</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Description</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Contraintes</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Dépendances</th>
+            <td>...</td>
+          </tr>
+          <tr>
+            <th>Procédure de test</th>
+            <td>
+              <strong>Données d'entrée:</strong> ... <br>
+              <strong>Résultats attendu:</strong> ... <br>
+              <strong>Critères de validation:</strong> ...
+            </td>
+          </tr>
+          <tr>
+            <th>Résultat</th>
+            <td>...</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Diapositive 16 : Fiche d'anomalies (issues)  -->
+      <section data-auto-animate>
+        <h2>Fiche d'anomalies (issues)</h2>
+        <h4>*Voir Github</h4>
+      </section>
+      <!-- Diapositive 17 : Gestion de projet  -->
+      <section data-auto-animate>
+        <h2>Dans le README</h2>
+        <h4>s'assurer d'Avoir tous ça: <a
+            href="https://tim-montmorency.com/582523-gestion/#/activites/5_concevoir/">Gestion de projet</a></h4>
+      </section>
     </div>
+  </div>
 
-    <!-- Script de Reveal.js et initialisation -->
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js"></script>
-    <script>
-      Reveal.initialize({
-        autoAnimate: true,
-        transition: "slide", // Options : fade, slide, zoom
-        transitionSpeed: "fast",
-      });
-    </script>
-    <!-- Import Mermaid -->
-    <script type="module">
-      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-      mermaid.initialize({ startOnLoad: true });
-      window.mermaid = mermaid;
-    </script>
-  </body>
+  <!-- Script de Reveal.js et initialisation -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      autoAnimate: true,
+      transition: "slide", // Options : fade, slide, zoom
+      transitionSpeed: "fast",
+    });
+  </script>
+  <!-- Import Mermaid -->
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+</body>
+
 </html>
