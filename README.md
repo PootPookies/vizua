@@ -40,8 +40,8 @@ graph TD
 
 ``` mermaid
 graph TD
-    A[Chef de projet (Ikrame Rata)] -->|Coordination & Gestion| B[Designer (Jeremy Duverseau)]
-    A -->|Coordination & Tests Utilisateurs| C[Développeur (Vincent Deslile)]
+    A[Chef de projet: Ikrame Rata] -->|Coordination & Gestion| B[Designer: Jeremy Duverseau]
+    A -->|Coordination & Tests Utilisateurs| C[Développeur: Vincent Deslile]
     A -->|Planification & Suivi de projet| D[Équipe]
 
     B -->|Création visuelle| E[Design des éléments 3D et animations]
