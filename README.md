@@ -158,16 +158,20 @@ Assure une alimentation stable.
 
 ### Liste des logiciels
 
-| Logiciel            | Description Technique                                                                           |
-| ------------------- | ----------------------------------------------------------------------------------------------- |
-| TouchDesigner       | Génère des visuels interactifs et les rend en temps réel dans un environnement VR.              |
-| DAW (Ableton/Logic) | Capture, modifie et traite les signaux MIDI/audio pour enrichir l'expérience sonore.            |
-| OpenVR              | Permet l'intégration et le rendu stéréoscopique de la scène VR et gère le suivi des mouvements. |
-| Oculus Software     | Établit la connexion et le suivi du casque Oculus avec le PC pour une immersion VR optimale.    |
+| Logiciel                                     | Description Technique                                                                            |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| TouchDesigner                                | Génère des visuels interactifs et les rend en temps réel dans un environnement VR.               |
+| DAW (Ableton/Logic)                          | Capture, modifie et traite les signaux MIDI/audio pour enrichir l'expérience sonore.             |
+| PlugData ou PureData                         | Traduit les signaux MIDI/audio en paramètres visuels exploitables par TouchDesigner.             |
+| OpenVR                                       | Permet l'intégration et le rendu stéréoscopique de la scène VR et gère le suivi des mouvements.  |
+| Oculus Software                              | Établit la connexion et le suivi du casque Oculus avec le PC pour une immersion VR optimale.     |
+| OSC (Open Sound Control)                     | Transmet les données MIDI/audio entre le DAW, PlugData/PureData, et TouchDesigner en temps réel. |
+| MIDI Monitor (macOS) ou MIDI-OX (Windows)    | Visualise les signaux MIDI pour vérifier la configuration et détecter les erreurs.               |
+| Virtual Audio Cable (ou équivalent)          | Permet de router l’audio entre différents logiciels si nécessaire.                               |
+| Soundflower (macOS) ou Voicemeeter (Windows) | Gère les flux audio pour un monitoring précis et avancé.                                         |
 
 #### Communication
 
 - **OSC / WebSocket** :
   - Transporte les données d'analyse de PyTorch vers TouchDesigner en temps réel.
   - Synchronise les échanges de données entre le DAW, PyTorch et TouchDesigner.
-
