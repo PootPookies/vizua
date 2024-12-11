@@ -33,7 +33,6 @@ L'idée est de moderniser les visualiseurs de musique en intégrant la réalité
 
 <img width="1127" alt="planification_temps" src="https://github.com/user-attachments/assets/cea34dab-4069-49c9-82e1-824088a112db" />
 
-
 ---
 
 ## Devis
